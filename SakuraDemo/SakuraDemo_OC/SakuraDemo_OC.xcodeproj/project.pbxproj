@@ -1,0 +1,1012 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03FE063C4BB708FF30403FF9 /* libPods-SakuraDemo_OCUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F48AA32C4919ED3D6219B2C /* libPods-SakuraDemo_OCUITests.a */; };
+		17C664855B7BD4307D8D596C /* libPods-SakuraDemo_OCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7742DD85D722338289D89DF1 /* libPods-SakuraDemo_OCTests.a */; };
+		3F9DADD310362D1BA3C417B9 /* libPods-SakuraDemo_OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF289FACD564079C21D2A426 /* libPods-SakuraDemo_OC.a */; };
+		970EEF291F30290600233D3A /* DownloadSakuraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970EEF071F3028B700233D3A /* DownloadSakuraController.m */; };
+		970EEF2A1F30290600233D3A /* EditProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970EEF091F3028B700233D3A /* EditProfileController.m */; };
+		970EEF2B1F30290600233D3A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970EEF0B1F3028B700233D3A /* FirstViewController.m */; };
+		970EEF2C1F30290600233D3A /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970EEF0D1F3028B700233D3A /* FourthViewController.m */; };
+		970EEF2D1F30290600233D3A /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970EEF0F1F3028B700233D3A /* NavViewController.m */; };
+		970EEF2E1F30290600233D3A /* PopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970EEF111F3028B700233D3A /* PopViewController.m */; };
+		970EEF2F1F30290600233D3A /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970EEF131F3028B700233D3A /* PushViewController.m */; };
+		970EEF301F30290600233D3A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970EEF151F3028B700233D3A /* SecondViewController.m */; };
+		970EEF311F30290600233D3A /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970EEF171F3028B700233D3A /* ThirdViewController.m */; };
+		970EEF321F30290600233D3A /* SakuraModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 970EEF1A1F3028B700233D3A /* SakuraModel.m */; };
+		970EEF331F30290600233D3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 970EEF1D1F3028B700233D3A /* AppDelegate.m */; };
+		970EEF341F30290600233D3A /* NSObject+TXExeDeallocBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 970EEF1F1F3028B700233D3A /* NSObject+TXExeDeallocBlock.m */; };
+		970EEF351F30290600233D3A /* TXExeDeallocBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 970EEF211F3028B700233D3A /* TXExeDeallocBlock.m */; };
+		970EEF361F30291000233D3A /* SakuraCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 970EEF271F3028B700233D3A /* SakuraCell.m */; };
+		970EEF371F30294300233D3A /* SakuraCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 970EEF281F3028B700233D3A /* SakuraCell.xib */; };
+		970EEF381F30296700233D3A /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 970EEF231F3028B700233D3A /* avatar.jpg */; };
+		970EEF391F30296700233D3A /* default.json in Resources */ = {isa = PBXBuildFile; fileRef = 970EEF241F3028B700233D3A /* default.json */; };
+		970EEF3C1F305B1400233D3A /* TXSakuraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970EEF3B1F305B1400233D3A /* TXSakuraController.m */; };
+		9739FD9C1F4DBAA70042AF9E /* typewriter.json in Resources */ = {isa = PBXBuildFile; fileRef = 9739FD9B1F4DB8E50042AF9E /* typewriter.json */; };
+		9749EB3A1F0B779700EA3C2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9749EB381F0B779700EA3C2D /* Main.storyboard */; };
+		9749EB3C1F0B779700EA3C2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9749EB3B1F0B779700EA3C2D /* Assets.xcassets */; };
+		9749EB3F1F0B779700EA3C2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9749EB3D1F0B779700EA3C2D /* LaunchScreen.storyboard */; };
+		9749EB421F0B779700EA3C2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB411F0B779700EA3C2D /* main.m */; };
+		9749EB4C1F0B779700EA3C2D /* SakuraDemo_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB4B1F0B779700EA3C2D /* SakuraDemo_OCTests.m */; };
+		9749EB571F0B779700EA3C2D /* SakuraDemo_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB561F0B779700EA3C2D /* SakuraDemo_OCUITests.m */; };
+		9749EB8C1F0B785200EA3C2D /* TXSakura.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB661F0B785200EA3C2D /* TXSakura.m */; };
+		9749EB8D1F0B785200EA3C2D /* TXSakuraApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB681F0B785200EA3C2D /* TXSakuraApplication.m */; };
+		9749EB8E1F0B785200EA3C2D /* TXSakuraBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB6A1F0B785200EA3C2D /* TXSakuraBar.m */; };
+		9749EB8F1F0B785200EA3C2D /* TXSakuraBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB6C1F0B785200EA3C2D /* TXSakuraBarItem.m */; };
+		9749EB901F0B785200EA3C2D /* TXSakuraButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB6E1F0B785200EA3C2D /* TXSakuraButton.m */; };
+		9749EB921F0B785200EA3C2D /* TXSakuraImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB721F0B785200EA3C2D /* TXSakuraImageView.m */; };
+		9749EB931F0B785200EA3C2D /* TXSakuraIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB741F0B785200EA3C2D /* TXSakuraIndicatorView.m */; };
+		9749EB941F0B785200EA3C2D /* TXSakuraLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB771F0B785200EA3C2D /* TXSakuraLabel.m */; };
+		9749EB951F0B785200EA3C2D /* TXSakuraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB791F0B785200EA3C2D /* TXSakuraManager.m */; };
+		9749EB961F0B785200EA3C2D /* TXSakuraNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB7B1F0B785200EA3C2D /* TXSakuraNavigationBar.m */; };
+		9749EB971F0B785200EA3C2D /* TXSakuraPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB7D1F0B785200EA3C2D /* TXSakuraPageControl.m */; };
+		9749EB981F0B785200EA3C2D /* TXSakuraProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB7F1F0B785200EA3C2D /* TXSakuraProgress.m */; };
+		9749EB991F0B785200EA3C2D /* TXSakuraSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB811F0B785200EA3C2D /* TXSakuraSlider.m */; };
+		9749EB9A1F0B785200EA3C2D /* TXSakuraSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB831F0B785200EA3C2D /* TXSakuraSwitch.m */; };
+		9749EB9B1F0B785200EA3C2D /* TXSakuraTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB851F0B785200EA3C2D /* TXSakuraTableView.m */; };
+		9749EB9C1F0B785200EA3C2D /* TXSakuraTextComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB871F0B785200EA3C2D /* TXSakuraTextComponent.m */; };
+		9749EB9D1F0B785200EA3C2D /* TXSakuraTrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB891F0B785200EA3C2D /* TXSakuraTrash.m */; };
+		9749EB9E1F0B785200EA3C2D /* TXSakuraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB8B1F0B785200EA3C2D /* TXSakuraView.m */; };
+		9765C06C1F4A77CB002F85A8 /* TXSakuraLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9765C06B1F4A77CB002F85A8 /* TXSakuraLayer.m */; };
+		9765C06F1F4A77E0002F85A8 /* TXSakuraShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9765C06E1F4A77E0002F85A8 /* TXSakuraShapeLayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9749EB481F0B779700EA3C2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9749EB271F0B779700EA3C2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9749EB2E1F0B779700EA3C2D;
+			remoteInfo = SakuraDemo_OC;
+		};
+		9749EB531F0B779700EA3C2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9749EB271F0B779700EA3C2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9749EB2E1F0B779700EA3C2D;
+			remoteInfo = SakuraDemo_OC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0409A3240311EC992C883334 /* Pods-SakuraDemo_OCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SakuraDemo_OCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SakuraDemo_OCTests/Pods-SakuraDemo_OCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F48AA32C4919ED3D6219B2C /* libPods-SakuraDemo_OCUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SakuraDemo_OCUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7742DD85D722338289D89DF1 /* libPods-SakuraDemo_OCTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SakuraDemo_OCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		970EEF061F3028B700233D3A /* DownloadSakuraController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownloadSakuraController.h; sourceTree = "<group>"; };
+		970EEF071F3028B700233D3A /* DownloadSakuraController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloadSakuraController.m; sourceTree = "<group>"; };
+		970EEF081F3028B700233D3A /* EditProfileController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditProfileController.h; sourceTree = "<group>"; };
+		970EEF091F3028B700233D3A /* EditProfileController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditProfileController.m; sourceTree = "<group>"; };
+		970EEF0A1F3028B700233D3A /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		970EEF0B1F3028B700233D3A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		970EEF0C1F3028B700233D3A /* FourthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		970EEF0D1F3028B700233D3A /* FourthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		970EEF0E1F3028B700233D3A /* NavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavViewController.h; sourceTree = "<group>"; };
+		970EEF0F1F3028B700233D3A /* NavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavViewController.m; sourceTree = "<group>"; };
+		970EEF101F3028B700233D3A /* PopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopViewController.h; sourceTree = "<group>"; };
+		970EEF111F3028B700233D3A /* PopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopViewController.m; sourceTree = "<group>"; };
+		970EEF121F3028B700233D3A /* PushViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
+		970EEF131F3028B700233D3A /* PushViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
+		970EEF141F3028B700233D3A /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		970EEF151F3028B700233D3A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		970EEF161F3028B700233D3A /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		970EEF171F3028B700233D3A /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		970EEF191F3028B700233D3A /* SakuraModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SakuraModel.h; sourceTree = "<group>"; };
+		970EEF1A1F3028B700233D3A /* SakuraModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SakuraModel.m; sourceTree = "<group>"; };
+		970EEF1C1F3028B700233D3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		970EEF1D1F3028B700233D3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		970EEF1E1F3028B700233D3A /* NSObject+TXExeDeallocBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+TXExeDeallocBlock.h"; sourceTree = "<group>"; };
+		970EEF1F1F3028B700233D3A /* NSObject+TXExeDeallocBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TXExeDeallocBlock.m"; sourceTree = "<group>"; };
+		970EEF201F3028B700233D3A /* TXExeDeallocBlock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXExeDeallocBlock.h; sourceTree = "<group>"; };
+		970EEF211F3028B700233D3A /* TXExeDeallocBlock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXExeDeallocBlock.m; sourceTree = "<group>"; };
+		970EEF231F3028B700233D3A /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar.jpg; sourceTree = "<group>"; };
+		970EEF241F3028B700233D3A /* default.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = default.json; sourceTree = "<group>"; };
+		970EEF261F3028B700233D3A /* SakuraCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SakuraCell.h; sourceTree = "<group>"; };
+		970EEF271F3028B700233D3A /* SakuraCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SakuraCell.m; sourceTree = "<group>"; };
+		970EEF281F3028B700233D3A /* SakuraCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SakuraCell.xib; sourceTree = "<group>"; };
+		970EEF3A1F305B1400233D3A /* TXSakuraController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXSakuraController.h; sourceTree = "<group>"; };
+		970EEF3B1F305B1400233D3A /* TXSakuraController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXSakuraController.m; sourceTree = "<group>"; };
+		9739FD9B1F4DB8E50042AF9E /* typewriter.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = typewriter.json; sourceTree = "<group>"; };
+		9749EB2F1F0B779700EA3C2D /* SakuraDemo_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SakuraDemo_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9749EB391F0B779700EA3C2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9749EB3B1F0B779700EA3C2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9749EB3E1F0B779700EA3C2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9749EB401F0B779700EA3C2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9749EB411F0B779700EA3C2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9749EB471F0B779700EA3C2D /* SakuraDemo_OCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SakuraDemo_OCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9749EB4B1F0B779700EA3C2D /* SakuraDemo_OCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SakuraDemo_OCTests.m; sourceTree = "<group>"; };
+		9749EB4D1F0B779700EA3C2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9749EB521F0B779700EA3C2D /* SakuraDemo_OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SakuraDemo_OCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9749EB561F0B779700EA3C2D /* SakuraDemo_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SakuraDemo_OCUITests.m; sourceTree = "<group>"; };
+		9749EB581F0B779700EA3C2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9749EB651F0B785200EA3C2D /* TXSakura.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakura.h; sourceTree = "<group>"; };
+		9749EB661F0B785200EA3C2D /* TXSakura.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakura.m; sourceTree = "<group>"; };
+		9749EB671F0B785200EA3C2D /* TXSakuraApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraApplication.h; sourceTree = "<group>"; };
+		9749EB681F0B785200EA3C2D /* TXSakuraApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraApplication.m; sourceTree = "<group>"; };
+		9749EB691F0B785200EA3C2D /* TXSakuraBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraBar.h; sourceTree = "<group>"; };
+		9749EB6A1F0B785200EA3C2D /* TXSakuraBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraBar.m; sourceTree = "<group>"; };
+		9749EB6B1F0B785200EA3C2D /* TXSakuraBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraBarItem.h; sourceTree = "<group>"; };
+		9749EB6C1F0B785200EA3C2D /* TXSakuraBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraBarItem.m; sourceTree = "<group>"; };
+		9749EB6D1F0B785200EA3C2D /* TXSakuraButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraButton.h; sourceTree = "<group>"; };
+		9749EB6E1F0B785200EA3C2D /* TXSakuraButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraButton.m; sourceTree = "<group>"; };
+		9749EB711F0B785200EA3C2D /* TXSakuraImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraImageView.h; sourceTree = "<group>"; };
+		9749EB721F0B785200EA3C2D /* TXSakuraImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraImageView.m; sourceTree = "<group>"; };
+		9749EB731F0B785200EA3C2D /* TXSakuraIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraIndicatorView.h; sourceTree = "<group>"; };
+		9749EB741F0B785200EA3C2D /* TXSakuraIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraIndicatorView.m; sourceTree = "<group>"; };
+		9749EB751F0B785200EA3C2D /* TXSakuraKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraKit.h; sourceTree = "<group>"; };
+		9749EB761F0B785200EA3C2D /* TXSakuraLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraLabel.h; sourceTree = "<group>"; };
+		9749EB771F0B785200EA3C2D /* TXSakuraLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraLabel.m; sourceTree = "<group>"; };
+		9749EB781F0B785200EA3C2D /* TXSakuraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraManager.h; sourceTree = "<group>"; };
+		9749EB791F0B785200EA3C2D /* TXSakuraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraManager.m; sourceTree = "<group>"; };
+		9749EB7A1F0B785200EA3C2D /* TXSakuraNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraNavigationBar.h; sourceTree = "<group>"; };
+		9749EB7B1F0B785200EA3C2D /* TXSakuraNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraNavigationBar.m; sourceTree = "<group>"; };
+		9749EB7C1F0B785200EA3C2D /* TXSakuraPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraPageControl.h; sourceTree = "<group>"; };
+		9749EB7D1F0B785200EA3C2D /* TXSakuraPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraPageControl.m; sourceTree = "<group>"; };
+		9749EB7E1F0B785200EA3C2D /* TXSakuraProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraProgress.h; sourceTree = "<group>"; };
+		9749EB7F1F0B785200EA3C2D /* TXSakuraProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraProgress.m; sourceTree = "<group>"; };
+		9749EB801F0B785200EA3C2D /* TXSakuraSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraSlider.h; sourceTree = "<group>"; };
+		9749EB811F0B785200EA3C2D /* TXSakuraSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraSlider.m; sourceTree = "<group>"; };
+		9749EB821F0B785200EA3C2D /* TXSakuraSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraSwitch.h; sourceTree = "<group>"; };
+		9749EB831F0B785200EA3C2D /* TXSakuraSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraSwitch.m; sourceTree = "<group>"; };
+		9749EB841F0B785200EA3C2D /* TXSakuraTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraTableView.h; sourceTree = "<group>"; };
+		9749EB851F0B785200EA3C2D /* TXSakuraTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraTableView.m; sourceTree = "<group>"; };
+		9749EB861F0B785200EA3C2D /* TXSakuraTextComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraTextComponent.h; sourceTree = "<group>"; };
+		9749EB871F0B785200EA3C2D /* TXSakuraTextComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraTextComponent.m; sourceTree = "<group>"; };
+		9749EB881F0B785200EA3C2D /* TXSakuraTrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraTrash.h; sourceTree = "<group>"; };
+		9749EB891F0B785200EA3C2D /* TXSakuraTrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraTrash.m; sourceTree = "<group>"; };
+		9749EB8A1F0B785200EA3C2D /* TXSakuraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraView.h; sourceTree = "<group>"; };
+		9749EB8B1F0B785200EA3C2D /* TXSakuraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraView.m; sourceTree = "<group>"; };
+		9765C06A1F4A77CB002F85A8 /* TXSakuraLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXSakuraLayer.h; sourceTree = "<group>"; };
+		9765C06B1F4A77CB002F85A8 /* TXSakuraLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXSakuraLayer.m; sourceTree = "<group>"; };
+		9765C06D1F4A77E0002F85A8 /* TXSakuraShapeLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXSakuraShapeLayer.h; sourceTree = "<group>"; };
+		9765C06E1F4A77E0002F85A8 /* TXSakuraShapeLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXSakuraShapeLayer.m; sourceTree = "<group>"; };
+		9A75E43A9C31D77ADA2EBBDF /* Pods-SakuraDemo_OCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SakuraDemo_OCUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SakuraDemo_OCUITests/Pods-SakuraDemo_OCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A26C39A110C9D32BEA3309BB /* Pods-SakuraDemo_OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SakuraDemo_OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SakuraDemo_OC/Pods-SakuraDemo_OC.debug.xcconfig"; sourceTree = "<group>"; };
+		C983B2EEA4A468D4A23625D2 /* Pods-SakuraDemo_OCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SakuraDemo_OCUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SakuraDemo_OCUITests/Pods-SakuraDemo_OCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EF289FACD564079C21D2A426 /* libPods-SakuraDemo_OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SakuraDemo_OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA3F499F4A3993AFB097EC7 /* Pods-SakuraDemo_OCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SakuraDemo_OCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SakuraDemo_OCTests/Pods-SakuraDemo_OCTests.release.xcconfig"; sourceTree = "<group>"; };
+		FB2D90C4BB0F8DEB853F5E32 /* Pods-SakuraDemo_OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SakuraDemo_OC.release.xcconfig"; path = "Pods/Target Support Files/Pods-SakuraDemo_OC/Pods-SakuraDemo_OC.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9749EB2C1F0B779700EA3C2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9DADD310362D1BA3C417B9 /* libPods-SakuraDemo_OC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9749EB441F0B779700EA3C2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C664855B7BD4307D8D596C /* libPods-SakuraDemo_OCTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9749EB4F1F0B779700EA3C2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03FE063C4BB708FF30403FF9 /* libPods-SakuraDemo_OCUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		970EEF041F3028B700233D3A /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				970EEF051F3028B700233D3A /* Controllers */,
+				970EEF251F3028B700233D3A /* Views */,
+				970EEF181F3028B700233D3A /* Models */,
+				970EEF1B1F3028B700233D3A /* Others */,
+				970EEF221F3028B700233D3A /* Resources */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		970EEF051F3028B700233D3A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				970EEF061F3028B700233D3A /* DownloadSakuraController.h */,
+				970EEF071F3028B700233D3A /* DownloadSakuraController.m */,
+				970EEF081F3028B700233D3A /* EditProfileController.h */,
+				970EEF091F3028B700233D3A /* EditProfileController.m */,
+				970EEF0A1F3028B700233D3A /* FirstViewController.h */,
+				970EEF0B1F3028B700233D3A /* FirstViewController.m */,
+				970EEF0C1F3028B700233D3A /* FourthViewController.h */,
+				970EEF0D1F3028B700233D3A /* FourthViewController.m */,
+				970EEF0E1F3028B700233D3A /* NavViewController.h */,
+				970EEF0F1F3028B700233D3A /* NavViewController.m */,
+				970EEF101F3028B700233D3A /* PopViewController.h */,
+				970EEF111F3028B700233D3A /* PopViewController.m */,
+				970EEF121F3028B700233D3A /* PushViewController.h */,
+				970EEF131F3028B700233D3A /* PushViewController.m */,
+				970EEF141F3028B700233D3A /* SecondViewController.h */,
+				970EEF151F3028B700233D3A /* SecondViewController.m */,
+				970EEF161F3028B700233D3A /* ThirdViewController.h */,
+				970EEF171F3028B700233D3A /* ThirdViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		970EEF181F3028B700233D3A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				970EEF191F3028B700233D3A /* SakuraModel.h */,
+				970EEF1A1F3028B700233D3A /* SakuraModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		970EEF1B1F3028B700233D3A /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				970EEF1C1F3028B700233D3A /* AppDelegate.h */,
+				970EEF1D1F3028B700233D3A /* AppDelegate.m */,
+				970EEF1E1F3028B700233D3A /* NSObject+TXExeDeallocBlock.h */,
+				970EEF1F1F3028B700233D3A /* NSObject+TXExeDeallocBlock.m */,
+				970EEF201F3028B700233D3A /* TXExeDeallocBlock.h */,
+				970EEF211F3028B700233D3A /* TXExeDeallocBlock.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		970EEF221F3028B700233D3A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				970EEF231F3028B700233D3A /* avatar.jpg */,
+				970EEF241F3028B700233D3A /* default.json */,
+				9739FD9B1F4DB8E50042AF9E /* typewriter.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		970EEF251F3028B700233D3A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				970EEF261F3028B700233D3A /* SakuraCell.h */,
+				970EEF271F3028B700233D3A /* SakuraCell.m */,
+				970EEF281F3028B700233D3A /* SakuraCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9749EB261F0B779700EA3C2D = {
+			isa = PBXGroup;
+			children = (
+				9749EB311F0B779700EA3C2D /* SakuraDemo_OC */,
+				9749EB4A1F0B779700EA3C2D /* SakuraDemo_OCTests */,
+				9749EB551F0B779700EA3C2D /* SakuraDemo_OCUITests */,
+				9749EB301F0B779700EA3C2D /* Products */,
+				A35162890C675512A4939F44 /* Pods */,
+				BD4340619177BE6C5A5342E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9749EB301F0B779700EA3C2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9749EB2F1F0B779700EA3C2D /* SakuraDemo_OC.app */,
+				9749EB471F0B779700EA3C2D /* SakuraDemo_OCTests.xctest */,
+				9749EB521F0B779700EA3C2D /* SakuraDemo_OCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9749EB311F0B779700EA3C2D /* SakuraDemo_OC */ = {
+			isa = PBXGroup;
+			children = (
+				9749EB641F0B785200EA3C2D /* SakuraKit */,
+				970EEF041F3028B700233D3A /* Demo */,
+				9749EB381F0B779700EA3C2D /* Main.storyboard */,
+				9749EB3B1F0B779700EA3C2D /* Assets.xcassets */,
+				9749EB3D1F0B779700EA3C2D /* LaunchScreen.storyboard */,
+				9749EB401F0B779700EA3C2D /* Info.plist */,
+				9749EB411F0B779700EA3C2D /* main.m */,
+			);
+			path = SakuraDemo_OC;
+			sourceTree = "<group>";
+		};
+		9749EB4A1F0B779700EA3C2D /* SakuraDemo_OCTests */ = {
+			isa = PBXGroup;
+			children = (
+				9749EB4B1F0B779700EA3C2D /* SakuraDemo_OCTests.m */,
+				9749EB4D1F0B779700EA3C2D /* Info.plist */,
+			);
+			path = SakuraDemo_OCTests;
+			sourceTree = "<group>";
+		};
+		9749EB551F0B779700EA3C2D /* SakuraDemo_OCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9749EB561F0B779700EA3C2D /* SakuraDemo_OCUITests.m */,
+				9749EB581F0B779700EA3C2D /* Info.plist */,
+			);
+			path = SakuraDemo_OCUITests;
+			sourceTree = "<group>";
+		};
+		9749EB641F0B785200EA3C2D /* SakuraKit */ = {
+			isa = PBXGroup;
+			children = (
+				9749EB651F0B785200EA3C2D /* TXSakura.h */,
+				9749EB661F0B785200EA3C2D /* TXSakura.m */,
+				9749EB671F0B785200EA3C2D /* TXSakuraApplication.h */,
+				9749EB681F0B785200EA3C2D /* TXSakuraApplication.m */,
+				9749EB691F0B785200EA3C2D /* TXSakuraBar.h */,
+				9749EB6A1F0B785200EA3C2D /* TXSakuraBar.m */,
+				9749EB6B1F0B785200EA3C2D /* TXSakuraBarItem.h */,
+				9749EB6C1F0B785200EA3C2D /* TXSakuraBarItem.m */,
+				9749EB6D1F0B785200EA3C2D /* TXSakuraButton.h */,
+				9749EB6E1F0B785200EA3C2D /* TXSakuraButton.m */,
+				9749EB711F0B785200EA3C2D /* TXSakuraImageView.h */,
+				9749EB721F0B785200EA3C2D /* TXSakuraImageView.m */,
+				9749EB731F0B785200EA3C2D /* TXSakuraIndicatorView.h */,
+				9749EB741F0B785200EA3C2D /* TXSakuraIndicatorView.m */,
+				9749EB751F0B785200EA3C2D /* TXSakuraKit.h */,
+				9749EB761F0B785200EA3C2D /* TXSakuraLabel.h */,
+				9749EB771F0B785200EA3C2D /* TXSakuraLabel.m */,
+				9749EB781F0B785200EA3C2D /* TXSakuraManager.h */,
+				9749EB791F0B785200EA3C2D /* TXSakuraManager.m */,
+				9749EB7A1F0B785200EA3C2D /* TXSakuraNavigationBar.h */,
+				9749EB7B1F0B785200EA3C2D /* TXSakuraNavigationBar.m */,
+				9749EB7C1F0B785200EA3C2D /* TXSakuraPageControl.h */,
+				9749EB7D1F0B785200EA3C2D /* TXSakuraPageControl.m */,
+				9749EB7E1F0B785200EA3C2D /* TXSakuraProgress.h */,
+				9749EB7F1F0B785200EA3C2D /* TXSakuraProgress.m */,
+				9749EB801F0B785200EA3C2D /* TXSakuraSlider.h */,
+				9749EB811F0B785200EA3C2D /* TXSakuraSlider.m */,
+				9749EB821F0B785200EA3C2D /* TXSakuraSwitch.h */,
+				9749EB831F0B785200EA3C2D /* TXSakuraSwitch.m */,
+				9749EB841F0B785200EA3C2D /* TXSakuraTableView.h */,
+				9749EB851F0B785200EA3C2D /* TXSakuraTableView.m */,
+				9749EB861F0B785200EA3C2D /* TXSakuraTextComponent.h */,
+				9749EB871F0B785200EA3C2D /* TXSakuraTextComponent.m */,
+				9749EB881F0B785200EA3C2D /* TXSakuraTrash.h */,
+				9749EB891F0B785200EA3C2D /* TXSakuraTrash.m */,
+				9749EB8A1F0B785200EA3C2D /* TXSakuraView.h */,
+				9749EB8B1F0B785200EA3C2D /* TXSakuraView.m */,
+				970EEF3A1F305B1400233D3A /* TXSakuraController.h */,
+				970EEF3B1F305B1400233D3A /* TXSakuraController.m */,
+				9765C06A1F4A77CB002F85A8 /* TXSakuraLayer.h */,
+				9765C06B1F4A77CB002F85A8 /* TXSakuraLayer.m */,
+				9765C06D1F4A77E0002F85A8 /* TXSakuraShapeLayer.h */,
+				9765C06E1F4A77E0002F85A8 /* TXSakuraShapeLayer.m */,
+			);
+			name = SakuraKit;
+			path = ../../../SakuraKit;
+			sourceTree = "<group>";
+		};
+		A35162890C675512A4939F44 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A26C39A110C9D32BEA3309BB /* Pods-SakuraDemo_OC.debug.xcconfig */,
+				FB2D90C4BB0F8DEB853F5E32 /* Pods-SakuraDemo_OC.release.xcconfig */,
+				0409A3240311EC992C883334 /* Pods-SakuraDemo_OCTests.debug.xcconfig */,
+				EFA3F499F4A3993AFB097EC7 /* Pods-SakuraDemo_OCTests.release.xcconfig */,
+				9A75E43A9C31D77ADA2EBBDF /* Pods-SakuraDemo_OCUITests.debug.xcconfig */,
+				C983B2EEA4A468D4A23625D2 /* Pods-SakuraDemo_OCUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD4340619177BE6C5A5342E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF289FACD564079C21D2A426 /* libPods-SakuraDemo_OC.a */,
+				7742DD85D722338289D89DF1 /* libPods-SakuraDemo_OCTests.a */,
+				3F48AA32C4919ED3D6219B2C /* libPods-SakuraDemo_OCUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9749EB2E1F0B779700EA3C2D /* SakuraDemo_OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9749EB5B1F0B779700EA3C2D /* Build configuration list for PBXNativeTarget "SakuraDemo_OC" */;
+			buildPhases = (
+				B1A2678745B23E66965B03C8 /* [CP] Check Pods Manifest.lock */,
+				9749EB2B1F0B779700EA3C2D /* Sources */,
+				9749EB2C1F0B779700EA3C2D /* Frameworks */,
+				9749EB2D1F0B779700EA3C2D /* Resources */,
+				9E7AD1D9909D7A9BC7E97EF2 /* [CP] Embed Pods Frameworks */,
+				C0D13EF8DE1ED13B1CB461F5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SakuraDemo_OC;
+			productName = SakuraDemo_OC;
+			productReference = 9749EB2F1F0B779700EA3C2D /* SakuraDemo_OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9749EB461F0B779700EA3C2D /* SakuraDemo_OCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9749EB5E1F0B779700EA3C2D /* Build configuration list for PBXNativeTarget "SakuraDemo_OCTests" */;
+			buildPhases = (
+				F1800BB1AD65C5303D7DDDD2 /* [CP] Check Pods Manifest.lock */,
+				9749EB431F0B779700EA3C2D /* Sources */,
+				9749EB441F0B779700EA3C2D /* Frameworks */,
+				9749EB451F0B779700EA3C2D /* Resources */,
+				F18FB4BD78995F98902E39D3 /* [CP] Embed Pods Frameworks */,
+				CB99CE1F9AFED27D6EACA07D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9749EB491F0B779700EA3C2D /* PBXTargetDependency */,
+			);
+			name = SakuraDemo_OCTests;
+			productName = SakuraDemo_OCTests;
+			productReference = 9749EB471F0B779700EA3C2D /* SakuraDemo_OCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9749EB511F0B779700EA3C2D /* SakuraDemo_OCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9749EB611F0B779700EA3C2D /* Build configuration list for PBXNativeTarget "SakuraDemo_OCUITests" */;
+			buildPhases = (
+				3B74B95DCF97868D35752B96 /* [CP] Check Pods Manifest.lock */,
+				9749EB4E1F0B779700EA3C2D /* Sources */,
+				9749EB4F1F0B779700EA3C2D /* Frameworks */,
+				9749EB501F0B779700EA3C2D /* Resources */,
+				1396E47763C5B8136672ECF0 /* [CP] Embed Pods Frameworks */,
+				1879DF989F106EF3929DBB58 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9749EB541F0B779700EA3C2D /* PBXTargetDependency */,
+			);
+			name = SakuraDemo_OCUITests;
+			productName = SakuraDemo_OCUITests;
+			productReference = 9749EB521F0B779700EA3C2D /* SakuraDemo_OCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9749EB271F0B779700EA3C2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = tingxins;
+				TargetAttributes = {
+					9749EB2E1F0B779700EA3C2D = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					9749EB461F0B779700EA3C2D = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 9749EB2E1F0B779700EA3C2D;
+					};
+					9749EB511F0B779700EA3C2D = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 9749EB2E1F0B779700EA3C2D;
+					};
+				};
+			};
+			buildConfigurationList = 9749EB2A1F0B779700EA3C2D /* Build configuration list for PBXProject "SakuraDemo_OC" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9749EB261F0B779700EA3C2D;
+			productRefGroup = 9749EB301F0B779700EA3C2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9749EB2E1F0B779700EA3C2D /* SakuraDemo_OC */,
+				9749EB461F0B779700EA3C2D /* SakuraDemo_OCTests */,
+				9749EB511F0B779700EA3C2D /* SakuraDemo_OCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9749EB2D1F0B779700EA3C2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9749EB3F1F0B779700EA3C2D /* LaunchScreen.storyboard in Resources */,
+				970EEF381F30296700233D3A /* avatar.jpg in Resources */,
+				9749EB3C1F0B779700EA3C2D /* Assets.xcassets in Resources */,
+				9739FD9C1F4DBAA70042AF9E /* typewriter.json in Resources */,
+				970EEF391F30296700233D3A /* default.json in Resources */,
+				970EEF371F30294300233D3A /* SakuraCell.xib in Resources */,
+				9749EB3A1F0B779700EA3C2D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9749EB451F0B779700EA3C2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9749EB501F0B779700EA3C2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1396E47763C5B8136672ECF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SakuraDemo_OCUITests/Pods-SakuraDemo_OCUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1879DF989F106EF3929DBB58 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SakuraDemo_OCUITests/Pods-SakuraDemo_OCUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B74B95DCF97868D35752B96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E7AD1D9909D7A9BC7E97EF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SakuraDemo_OC/Pods-SakuraDemo_OC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1A2678745B23E66965B03C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C0D13EF8DE1ED13B1CB461F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SakuraDemo_OC/Pods-SakuraDemo_OC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB99CE1F9AFED27D6EACA07D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SakuraDemo_OCTests/Pods-SakuraDemo_OCTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1800BB1AD65C5303D7DDDD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F18FB4BD78995F98902E39D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SakuraDemo_OCTests/Pods-SakuraDemo_OCTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9749EB2B1F0B779700EA3C2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				970EEF291F30290600233D3A /* DownloadSakuraController.m in Sources */,
+				970EEF2A1F30290600233D3A /* EditProfileController.m in Sources */,
+				9765C06F1F4A77E0002F85A8 /* TXSakuraShapeLayer.m in Sources */,
+				970EEF2B1F30290600233D3A /* FirstViewController.m in Sources */,
+				970EEF2C1F30290600233D3A /* FourthViewController.m in Sources */,
+				970EEF2D1F30290600233D3A /* NavViewController.m in Sources */,
+				970EEF2E1F30290600233D3A /* PopViewController.m in Sources */,
+				970EEF2F1F30290600233D3A /* PushViewController.m in Sources */,
+				970EEF301F30290600233D3A /* SecondViewController.m in Sources */,
+				970EEF311F30290600233D3A /* ThirdViewController.m in Sources */,
+				970EEF321F30290600233D3A /* SakuraModel.m in Sources */,
+				9765C06C1F4A77CB002F85A8 /* TXSakuraLayer.m in Sources */,
+				970EEF331F30290600233D3A /* AppDelegate.m in Sources */,
+				970EEF341F30290600233D3A /* NSObject+TXExeDeallocBlock.m in Sources */,
+				970EEF361F30291000233D3A /* SakuraCell.m in Sources */,
+				970EEF351F30290600233D3A /* TXExeDeallocBlock.m in Sources */,
+				9749EB9D1F0B785200EA3C2D /* TXSakuraTrash.m in Sources */,
+				9749EB991F0B785200EA3C2D /* TXSakuraSlider.m in Sources */,
+				9749EB8C1F0B785200EA3C2D /* TXSakura.m in Sources */,
+				9749EB941F0B785200EA3C2D /* TXSakuraLabel.m in Sources */,
+				9749EB8F1F0B785200EA3C2D /* TXSakuraBarItem.m in Sources */,
+				9749EB901F0B785200EA3C2D /* TXSakuraButton.m in Sources */,
+				9749EB981F0B785200EA3C2D /* TXSakuraProgress.m in Sources */,
+				9749EB9B1F0B785200EA3C2D /* TXSakuraTableView.m in Sources */,
+				9749EB421F0B779700EA3C2D /* main.m in Sources */,
+				9749EB9C1F0B785200EA3C2D /* TXSakuraTextComponent.m in Sources */,
+				9749EB961F0B785200EA3C2D /* TXSakuraNavigationBar.m in Sources */,
+				9749EB931F0B785200EA3C2D /* TXSakuraIndicatorView.m in Sources */,
+				9749EB9E1F0B785200EA3C2D /* TXSakuraView.m in Sources */,
+				9749EB971F0B785200EA3C2D /* TXSakuraPageControl.m in Sources */,
+				970EEF3C1F305B1400233D3A /* TXSakuraController.m in Sources */,
+				9749EB921F0B785200EA3C2D /* TXSakuraImageView.m in Sources */,
+				9749EB9A1F0B785200EA3C2D /* TXSakuraSwitch.m in Sources */,
+				9749EB8E1F0B785200EA3C2D /* TXSakuraBar.m in Sources */,
+				9749EB951F0B785200EA3C2D /* TXSakuraManager.m in Sources */,
+				9749EB8D1F0B785200EA3C2D /* TXSakuraApplication.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9749EB431F0B779700EA3C2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9749EB4C1F0B779700EA3C2D /* SakuraDemo_OCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9749EB4E1F0B779700EA3C2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9749EB571F0B779700EA3C2D /* SakuraDemo_OCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9749EB491F0B779700EA3C2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9749EB2E1F0B779700EA3C2D /* SakuraDemo_OC */;
+			targetProxy = 9749EB481F0B779700EA3C2D /* PBXContainerItemProxy */;
+		};
+		9749EB541F0B779700EA3C2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9749EB2E1F0B779700EA3C2D /* SakuraDemo_OC */;
+			targetProxy = 9749EB531F0B779700EA3C2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9749EB381F0B779700EA3C2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9749EB391F0B779700EA3C2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9749EB3D1F0B779700EA3C2D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9749EB3E1F0B779700EA3C2D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9749EB591F0B779700EA3C2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9749EB5A1F0B779700EA3C2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9749EB5C1F0B779700EA3C2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A26C39A110C9D32BEA3309BB /* Pods-SakuraDemo_OC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QZ2B7EZFJP;
+				INFOPLIST_FILE = SakuraDemo_OC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tingxins.demo.SakuraDemo-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9749EB5D1F0B779700EA3C2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB2D90C4BB0F8DEB853F5E32 /* Pods-SakuraDemo_OC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QZ2B7EZFJP;
+				INFOPLIST_FILE = SakuraDemo_OC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tingxins.demo.SakuraDemo-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9749EB5F1F0B779700EA3C2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0409A3240311EC992C883334 /* Pods-SakuraDemo_OCTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QZ2B7EZFJP;
+				INFOPLIST_FILE = SakuraDemo_OCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tingxins.demo.SakuraDemo-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SakuraDemo_OC.app/SakuraDemo_OC";
+			};
+			name = Debug;
+		};
+		9749EB601F0B779700EA3C2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFA3F499F4A3993AFB097EC7 /* Pods-SakuraDemo_OCTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = QZ2B7EZFJP;
+				INFOPLIST_FILE = SakuraDemo_OCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tingxins.demo.SakuraDemo-OCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SakuraDemo_OC.app/SakuraDemo_OC";
+			};
+			name = Release;
+		};
+		9749EB621F0B779700EA3C2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A75E43A9C31D77ADA2EBBDF /* Pods-SakuraDemo_OCUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = QZ2B7EZFJP;
+				INFOPLIST_FILE = SakuraDemo_OCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tingxins.demo.SakuraDemo-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SakuraDemo_OC;
+			};
+			name = Debug;
+		};
+		9749EB631F0B779700EA3C2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C983B2EEA4A468D4A23625D2 /* Pods-SakuraDemo_OCUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = QZ2B7EZFJP;
+				INFOPLIST_FILE = SakuraDemo_OCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tingxins.demo.SakuraDemo-OCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SakuraDemo_OC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9749EB2A1F0B779700EA3C2D /* Build configuration list for PBXProject "SakuraDemo_OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9749EB591F0B779700EA3C2D /* Debug */,
+				9749EB5A1F0B779700EA3C2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9749EB5B1F0B779700EA3C2D /* Build configuration list for PBXNativeTarget "SakuraDemo_OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9749EB5C1F0B779700EA3C2D /* Debug */,
+				9749EB5D1F0B779700EA3C2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9749EB5E1F0B779700EA3C2D /* Build configuration list for PBXNativeTarget "SakuraDemo_OCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9749EB5F1F0B779700EA3C2D /* Debug */,
+				9749EB601F0B779700EA3C2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9749EB611F0B779700EA3C2D /* Build configuration list for PBXNativeTarget "SakuraDemo_OCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9749EB621F0B779700EA3C2D /* Debug */,
+				9749EB631F0B779700EA3C2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9749EB271F0B779700EA3C2D /* Project object */;
+}

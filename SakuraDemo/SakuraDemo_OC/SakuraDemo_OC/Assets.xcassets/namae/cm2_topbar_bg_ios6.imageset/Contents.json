@@ -1,0 +1,25 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "cm2_topbar_bg_ios6.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "cm2_topbar_bg_ios6@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "template-rendering-intent" : "original"
+  }
+}
