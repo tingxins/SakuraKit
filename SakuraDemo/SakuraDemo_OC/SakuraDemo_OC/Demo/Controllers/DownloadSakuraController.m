@@ -89,7 +89,7 @@
     
     if (sakuraModel.status == 3) {
         NSLog(@"Start using %@ sakura!", sakuraModel.name);
-        [TXSakuraManager shiftSakuraWithName:sakuraModel.sakuraName type:TXSakuraTypeSandBox];
+        [TXSakuraManager shiftSakuraWithName:sakuraModel.sakuraName type:TXSakuraTypeSandbox];
     }if (sakuraModel.status == 0)  {
         NSLog(@"Start downloading sakura：%@",sakuraModel.name);
         NSURLSessionDownloadTask *downloadTask = [[TXSakuraManager manager] tx_sakuraDownloadWithInfos:sakuraModel downloadProgressHandler:^(int64_t bytesWritten, int64_t totalBytesWritten, int64_t totalBytesExpectedToWrite) {

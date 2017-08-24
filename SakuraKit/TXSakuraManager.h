@@ -17,7 +17,7 @@ SEL _Nullable getSelectorWithPattern(const char * _Nullable prefix, const char *
 
 typedef NS_ENUM(NSInteger, TXSakuraType) {
     TXSakuraTypeMainBundle,
-    TXSakuraTypeSandBox
+    TXSakuraTypeSandbox
 };
 
 /** Download task status. */

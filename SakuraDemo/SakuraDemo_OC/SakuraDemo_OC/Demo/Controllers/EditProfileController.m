@@ -58,7 +58,7 @@
     if ([name isEqualToString:kTXSakuraDefault] || [[TXSakuraManager getLocalSakuraNames] containsObject:name]) {
         flag = [TXSakuraManager shiftSakuraWithName:name type:TXSakuraTypeMainBundle];
     }else {
-        flag = [TXSakuraManager shiftSakuraWithName:name type:TXSakuraTypeSandBox];
+        flag = [TXSakuraManager shiftSakuraWithName:name type:TXSakuraTypeSandbox];
     }
     if (flag) {
         [self.navigationController popViewControllerAnimated:YES];

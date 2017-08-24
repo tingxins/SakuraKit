@@ -145,7 +145,7 @@
 }
 
 - (void)changeTheme:(id<TXSakuraDownloadProtocol>)infos {
-    [TXSakuraManager shiftSakuraWithName:infos.sakuraName type:TXSakuraTypeSandBox];
+    [TXSakuraManager shiftSakuraWithName:infos.sakuraName type:TXSakuraTypeSandbox];
 }
 
 #pragma mark - Sakura download delegate

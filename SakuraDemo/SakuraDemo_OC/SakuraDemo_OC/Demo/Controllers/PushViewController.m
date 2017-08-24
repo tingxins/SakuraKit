@@ -66,7 +66,7 @@ didFinishDownloadingToURL:(NSURL *)location {
             [TXSakuraManager formatSakuraPath:sakuraPath cleanCachePath:toFilePath];
             dispatch_sync(dispatch_get_main_queue(), ^{
                 if (isSuccess) {
-                    [TXSakuraManager shiftSakuraWithName:sakuraName type:TXSakuraTypeSandBox];
+                    [TXSakuraManager shiftSakuraWithName:sakuraName type:TXSakuraTypeSandbox];
                 }
             });
         });

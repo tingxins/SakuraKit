@@ -177,7 +177,7 @@ static NSMutableArray<TXSakuraName *> *_localSakuras;
             _resourcesPath = nil;
             _configsFilePath = [self tx_getSakuraConfigsFileBundlePathWithName:name];
             break;
-        case TXSakuraTypeSandBox:{
+        case TXSakuraTypeSandbox:{
             _resourcesPath = [self tx_getSakuraResourceSandboxPathWithName:name];
             _configsFilePath = [self tx_tryGetSakuraConfigsFileSandboxPathWithName:name];
             if (!_configsFilePath.length && _resourcesPath.length) {
@@ -357,7 +357,7 @@ SEL getSelectorWithPattern(const char *prefix, const char *key, const char *suff
     if (imageName && imageName.length) {
         if (_currentSakuraType == TXSakuraTypeMainBundle) {
             image = [UIImage imageNamed:imageName];
-        }else if (_currentSakuraType == TXSakuraTypeSandBox) {
+        }else if (_currentSakuraType == TXSakuraTypeSandbox) {
             image = [self _getImagePathWithImageName:imageName fileType:kTXImageExtensionPNG];
             if (!image) {
                 image = [self _getImagePathWithImageName:imageName fileType:kTXImageExtensionJPG];
