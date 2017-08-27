@@ -2,7 +2,18 @@
 <img src="http://image.tingxins.cn/sakura/sakura-kit-logo.png" width=888/>
 </p>
 
-**SakuraKit** is a lightweight and powerful library for application to switching themes or skins, inspired by SwiftTheme and DKNightVersion. Its provides chain and functional programming, that is more readable for your codes.
+
+<p align="center">
+<a href=""><img src="https://img.shields.io/badge/language-Objectivc--C-blue.svg"></a>
+<a href="http://cocoadocs.org/docsets/InputKit"><img src="https://img.shields.io/cocoapods/v/SakuraKit.svg?style=flat"></a>
+<a href="https://github.com/Carthage/Carthage"><img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat"></a>
+<a href="https://github.com/tingxins/SakuraKit"><img src="https://img.shields.io/cocoapods/p/SakuraKit.svg?style=flat"></a>
+<a href="https://github.com/tingxins/SakuraKit"><img src="https://img.shields.io/badge/support-iOS%208%2B-brightgreen.svg"></a>
+<a href="https://www.apache.org/licenses/LICENSE-2.0.html"><img src="http://img.shields.io/cocoapods/l/SakuraKit.svg?style=flat"></a>
+
+</p>
+
+**SakuraKit**, is a lightweight and powerful library for application to switching themes or skins, inspired by **SwiftTheme** and **DKNightVersion**. Its provides chain and functional programming, that is more readable for your codes.
 
 For **Demo** take a look at the SakuraDemo_OC, an iOS example project in the workspace. You will need to run `pod install` after downloading.
 
