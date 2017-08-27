@@ -27,7 +27,6 @@
 		970EEF371F30294300233D3A /* SakuraCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 970EEF281F3028B700233D3A /* SakuraCell.xib */; };
 		970EEF381F30296700233D3A /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 970EEF231F3028B700233D3A /* avatar.jpg */; };
 		970EEF391F30296700233D3A /* default.json in Resources */ = {isa = PBXBuildFile; fileRef = 970EEF241F3028B700233D3A /* default.json */; };
-		970EEF3C1F305B1400233D3A /* TXSakuraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970EEF3B1F305B1400233D3A /* TXSakuraController.m */; };
 		9739FD9C1F4DBAA70042AF9E /* typewriter.json in Resources */ = {isa = PBXBuildFile; fileRef = 9739FD9B1F4DB8E50042AF9E /* typewriter.json */; };
 		9749EB3A1F0B779700EA3C2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9749EB381F0B779700EA3C2D /* Main.storyboard */; };
 		9749EB3C1F0B779700EA3C2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9749EB3B1F0B779700EA3C2D /* Assets.xcassets */; };
@@ -35,26 +34,27 @@
 		9749EB421F0B779700EA3C2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB411F0B779700EA3C2D /* main.m */; };
 		9749EB4C1F0B779700EA3C2D /* SakuraDemo_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB4B1F0B779700EA3C2D /* SakuraDemo_OCTests.m */; };
 		9749EB571F0B779700EA3C2D /* SakuraDemo_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB561F0B779700EA3C2D /* SakuraDemo_OCUITests.m */; };
-		9749EB8C1F0B785200EA3C2D /* TXSakura.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB661F0B785200EA3C2D /* TXSakura.m */; };
-		9749EB8D1F0B785200EA3C2D /* TXSakuraApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB681F0B785200EA3C2D /* TXSakuraApplication.m */; };
-		9749EB8E1F0B785200EA3C2D /* TXSakuraBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB6A1F0B785200EA3C2D /* TXSakuraBar.m */; };
-		9749EB8F1F0B785200EA3C2D /* TXSakuraBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB6C1F0B785200EA3C2D /* TXSakuraBarItem.m */; };
-		9749EB901F0B785200EA3C2D /* TXSakuraButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB6E1F0B785200EA3C2D /* TXSakuraButton.m */; };
-		9749EB921F0B785200EA3C2D /* TXSakuraImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB721F0B785200EA3C2D /* TXSakuraImageView.m */; };
-		9749EB931F0B785200EA3C2D /* TXSakuraIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB741F0B785200EA3C2D /* TXSakuraIndicatorView.m */; };
-		9749EB941F0B785200EA3C2D /* TXSakuraLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB771F0B785200EA3C2D /* TXSakuraLabel.m */; };
-		9749EB951F0B785200EA3C2D /* TXSakuraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB791F0B785200EA3C2D /* TXSakuraManager.m */; };
-		9749EB961F0B785200EA3C2D /* TXSakuraNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB7B1F0B785200EA3C2D /* TXSakuraNavigationBar.m */; };
-		9749EB971F0B785200EA3C2D /* TXSakuraPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB7D1F0B785200EA3C2D /* TXSakuraPageControl.m */; };
-		9749EB981F0B785200EA3C2D /* TXSakuraProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB7F1F0B785200EA3C2D /* TXSakuraProgress.m */; };
-		9749EB991F0B785200EA3C2D /* TXSakuraSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB811F0B785200EA3C2D /* TXSakuraSlider.m */; };
-		9749EB9A1F0B785200EA3C2D /* TXSakuraSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB831F0B785200EA3C2D /* TXSakuraSwitch.m */; };
-		9749EB9B1F0B785200EA3C2D /* TXSakuraTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB851F0B785200EA3C2D /* TXSakuraTableView.m */; };
-		9749EB9C1F0B785200EA3C2D /* TXSakuraTextComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB871F0B785200EA3C2D /* TXSakuraTextComponent.m */; };
-		9749EB9D1F0B785200EA3C2D /* TXSakuraTrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB891F0B785200EA3C2D /* TXSakuraTrash.m */; };
-		9749EB9E1F0B785200EA3C2D /* TXSakuraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9749EB8B1F0B785200EA3C2D /* TXSakuraView.m */; };
-		9765C06C1F4A77CB002F85A8 /* TXSakuraLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9765C06B1F4A77CB002F85A8 /* TXSakuraLayer.m */; };
-		9765C06F1F4A77E0002F85A8 /* TXSakuraShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9765C06E1F4A77E0002F85A8 /* TXSakuraShapeLayer.m */; };
+		9786BCB71F531880006B8014 /* TXSakuraApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 9786BC8D1F531880006B8014 /* TXSakuraApplication.m */; };
+		9786BCB81F531880006B8014 /* TXSakuraBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9786BC8F1F531880006B8014 /* TXSakuraBar.m */; };
+		9786BCB91F531880006B8014 /* TXSakuraBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9786BC911F531880006B8014 /* TXSakuraBarItem.m */; };
+		9786BCBA1F531880006B8014 /* TXSakuraButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9786BC931F531880006B8014 /* TXSakuraButton.m */; };
+		9786BCBB1F531880006B8014 /* TXSakuraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9786BC951F531880006B8014 /* TXSakuraController.m */; };
+		9786BCBC1F531880006B8014 /* TXSakuraImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9786BC971F531880006B8014 /* TXSakuraImageView.m */; };
+		9786BCBD1F531880006B8014 /* TXSakuraIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9786BC991F531880006B8014 /* TXSakuraIndicatorView.m */; };
+		9786BCBE1F531880006B8014 /* TXSakuraLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9786BC9B1F531880006B8014 /* TXSakuraLabel.m */; };
+		9786BCBF1F531880006B8014 /* TXSakuraLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9786BC9D1F531880006B8014 /* TXSakuraLayer.m */; };
+		9786BCC01F531880006B8014 /* TXSakuraNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9786BC9F1F531880006B8014 /* TXSakuraNavigationBar.m */; };
+		9786BCC11F531880006B8014 /* TXSakuraPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9786BCA11F531880006B8014 /* TXSakuraPageControl.m */; };
+		9786BCC21F531880006B8014 /* TXSakuraProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 9786BCA31F531880006B8014 /* TXSakuraProgress.m */; };
+		9786BCC31F531880006B8014 /* TXSakuraShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9786BCA51F531880006B8014 /* TXSakuraShapeLayer.m */; };
+		9786BCC41F531880006B8014 /* TXSakuraSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9786BCA71F531880006B8014 /* TXSakuraSlider.m */; };
+		9786BCC51F531880006B8014 /* TXSakuraSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 9786BCA91F531880006B8014 /* TXSakuraSwitch.m */; };
+		9786BCC61F531880006B8014 /* TXSakuraTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9786BCAB1F531880006B8014 /* TXSakuraTableView.m */; };
+		9786BCC71F531880006B8014 /* TXSakuraTextComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 9786BCAD1F531880006B8014 /* TXSakuraTextComponent.m */; };
+		9786BCC81F531880006B8014 /* TXSakuraTrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 9786BCAF1F531880006B8014 /* TXSakuraTrash.m */; };
+		9786BCC91F531880006B8014 /* TXSakuraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9786BCB11F531880006B8014 /* TXSakuraView.m */; };
+		9786BCCA1F531880006B8014 /* TXSakura.m in Sources */ = {isa = PBXBuildFile; fileRef = 9786BCB41F531880006B8014 /* TXSakura.m */; };
+		9786BCCB1F531880006B8014 /* TXSakuraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9786BCB61F531880006B8014 /* TXSakuraManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,8 +109,6 @@
 		970EEF261F3028B700233D3A /* SakuraCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SakuraCell.h; sourceTree = "<group>"; };
 		970EEF271F3028B700233D3A /* SakuraCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SakuraCell.m; sourceTree = "<group>"; };
 		970EEF281F3028B700233D3A /* SakuraCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SakuraCell.xib; sourceTree = "<group>"; };
-		970EEF3A1F305B1400233D3A /* TXSakuraController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXSakuraController.h; sourceTree = "<group>"; };
-		970EEF3B1F305B1400233D3A /* TXSakuraController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXSakuraController.m; sourceTree = "<group>"; };
 		9739FD9B1F4DB8E50042AF9E /* typewriter.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = typewriter.json; sourceTree = "<group>"; };
 		9749EB2F1F0B779700EA3C2D /* SakuraDemo_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SakuraDemo_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9749EB391F0B779700EA3C2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -124,47 +122,49 @@
 		9749EB521F0B779700EA3C2D /* SakuraDemo_OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SakuraDemo_OCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9749EB561F0B779700EA3C2D /* SakuraDemo_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SakuraDemo_OCUITests.m; sourceTree = "<group>"; };
 		9749EB581F0B779700EA3C2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9749EB651F0B785200EA3C2D /* TXSakura.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakura.h; sourceTree = "<group>"; };
-		9749EB661F0B785200EA3C2D /* TXSakura.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakura.m; sourceTree = "<group>"; };
-		9749EB671F0B785200EA3C2D /* TXSakuraApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraApplication.h; sourceTree = "<group>"; };
-		9749EB681F0B785200EA3C2D /* TXSakuraApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraApplication.m; sourceTree = "<group>"; };
-		9749EB691F0B785200EA3C2D /* TXSakuraBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraBar.h; sourceTree = "<group>"; };
-		9749EB6A1F0B785200EA3C2D /* TXSakuraBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraBar.m; sourceTree = "<group>"; };
-		9749EB6B1F0B785200EA3C2D /* TXSakuraBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraBarItem.h; sourceTree = "<group>"; };
-		9749EB6C1F0B785200EA3C2D /* TXSakuraBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraBarItem.m; sourceTree = "<group>"; };
-		9749EB6D1F0B785200EA3C2D /* TXSakuraButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraButton.h; sourceTree = "<group>"; };
-		9749EB6E1F0B785200EA3C2D /* TXSakuraButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraButton.m; sourceTree = "<group>"; };
-		9749EB711F0B785200EA3C2D /* TXSakuraImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraImageView.h; sourceTree = "<group>"; };
-		9749EB721F0B785200EA3C2D /* TXSakuraImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraImageView.m; sourceTree = "<group>"; };
-		9749EB731F0B785200EA3C2D /* TXSakuraIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraIndicatorView.h; sourceTree = "<group>"; };
-		9749EB741F0B785200EA3C2D /* TXSakuraIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraIndicatorView.m; sourceTree = "<group>"; };
 		9749EB751F0B785200EA3C2D /* TXSakuraKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraKit.h; sourceTree = "<group>"; };
-		9749EB761F0B785200EA3C2D /* TXSakuraLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraLabel.h; sourceTree = "<group>"; };
-		9749EB771F0B785200EA3C2D /* TXSakuraLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraLabel.m; sourceTree = "<group>"; };
-		9749EB781F0B785200EA3C2D /* TXSakuraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraManager.h; sourceTree = "<group>"; };
-		9749EB791F0B785200EA3C2D /* TXSakuraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraManager.m; sourceTree = "<group>"; };
-		9749EB7A1F0B785200EA3C2D /* TXSakuraNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraNavigationBar.h; sourceTree = "<group>"; };
-		9749EB7B1F0B785200EA3C2D /* TXSakuraNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraNavigationBar.m; sourceTree = "<group>"; };
-		9749EB7C1F0B785200EA3C2D /* TXSakuraPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraPageControl.h; sourceTree = "<group>"; };
-		9749EB7D1F0B785200EA3C2D /* TXSakuraPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraPageControl.m; sourceTree = "<group>"; };
-		9749EB7E1F0B785200EA3C2D /* TXSakuraProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraProgress.h; sourceTree = "<group>"; };
-		9749EB7F1F0B785200EA3C2D /* TXSakuraProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraProgress.m; sourceTree = "<group>"; };
-		9749EB801F0B785200EA3C2D /* TXSakuraSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraSlider.h; sourceTree = "<group>"; };
-		9749EB811F0B785200EA3C2D /* TXSakuraSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraSlider.m; sourceTree = "<group>"; };
-		9749EB821F0B785200EA3C2D /* TXSakuraSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraSwitch.h; sourceTree = "<group>"; };
-		9749EB831F0B785200EA3C2D /* TXSakuraSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraSwitch.m; sourceTree = "<group>"; };
-		9749EB841F0B785200EA3C2D /* TXSakuraTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraTableView.h; sourceTree = "<group>"; };
-		9749EB851F0B785200EA3C2D /* TXSakuraTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraTableView.m; sourceTree = "<group>"; };
-		9749EB861F0B785200EA3C2D /* TXSakuraTextComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraTextComponent.h; sourceTree = "<group>"; };
-		9749EB871F0B785200EA3C2D /* TXSakuraTextComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraTextComponent.m; sourceTree = "<group>"; };
-		9749EB881F0B785200EA3C2D /* TXSakuraTrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraTrash.h; sourceTree = "<group>"; };
-		9749EB891F0B785200EA3C2D /* TXSakuraTrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraTrash.m; sourceTree = "<group>"; };
-		9749EB8A1F0B785200EA3C2D /* TXSakuraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraView.h; sourceTree = "<group>"; };
-		9749EB8B1F0B785200EA3C2D /* TXSakuraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraView.m; sourceTree = "<group>"; };
-		9765C06A1F4A77CB002F85A8 /* TXSakuraLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXSakuraLayer.h; sourceTree = "<group>"; };
-		9765C06B1F4A77CB002F85A8 /* TXSakuraLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXSakuraLayer.m; sourceTree = "<group>"; };
-		9765C06D1F4A77E0002F85A8 /* TXSakuraShapeLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXSakuraShapeLayer.h; sourceTree = "<group>"; };
-		9765C06E1F4A77E0002F85A8 /* TXSakuraShapeLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXSakuraShapeLayer.m; sourceTree = "<group>"; };
+		9786BC8C1F531880006B8014 /* TXSakuraApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraApplication.h; sourceTree = "<group>"; };
+		9786BC8D1F531880006B8014 /* TXSakuraApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraApplication.m; sourceTree = "<group>"; };
+		9786BC8E1F531880006B8014 /* TXSakuraBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraBar.h; sourceTree = "<group>"; };
+		9786BC8F1F531880006B8014 /* TXSakuraBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraBar.m; sourceTree = "<group>"; };
+		9786BC901F531880006B8014 /* TXSakuraBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraBarItem.h; sourceTree = "<group>"; };
+		9786BC911F531880006B8014 /* TXSakuraBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraBarItem.m; sourceTree = "<group>"; };
+		9786BC921F531880006B8014 /* TXSakuraButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraButton.h; sourceTree = "<group>"; };
+		9786BC931F531880006B8014 /* TXSakuraButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraButton.m; sourceTree = "<group>"; };
+		9786BC941F531880006B8014 /* TXSakuraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraController.h; sourceTree = "<group>"; };
+		9786BC951F531880006B8014 /* TXSakuraController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraController.m; sourceTree = "<group>"; };
+		9786BC961F531880006B8014 /* TXSakuraImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraImageView.h; sourceTree = "<group>"; };
+		9786BC971F531880006B8014 /* TXSakuraImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraImageView.m; sourceTree = "<group>"; };
+		9786BC981F531880006B8014 /* TXSakuraIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraIndicatorView.h; sourceTree = "<group>"; };
+		9786BC991F531880006B8014 /* TXSakuraIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraIndicatorView.m; sourceTree = "<group>"; };
+		9786BC9A1F531880006B8014 /* TXSakuraLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraLabel.h; sourceTree = "<group>"; };
+		9786BC9B1F531880006B8014 /* TXSakuraLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraLabel.m; sourceTree = "<group>"; };
+		9786BC9C1F531880006B8014 /* TXSakuraLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraLayer.h; sourceTree = "<group>"; };
+		9786BC9D1F531880006B8014 /* TXSakuraLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraLayer.m; sourceTree = "<group>"; };
+		9786BC9E1F531880006B8014 /* TXSakuraNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraNavigationBar.h; sourceTree = "<group>"; };
+		9786BC9F1F531880006B8014 /* TXSakuraNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraNavigationBar.m; sourceTree = "<group>"; };
+		9786BCA01F531880006B8014 /* TXSakuraPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraPageControl.h; sourceTree = "<group>"; };
+		9786BCA11F531880006B8014 /* TXSakuraPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraPageControl.m; sourceTree = "<group>"; };
+		9786BCA21F531880006B8014 /* TXSakuraProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraProgress.h; sourceTree = "<group>"; };
+		9786BCA31F531880006B8014 /* TXSakuraProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraProgress.m; sourceTree = "<group>"; };
+		9786BCA41F531880006B8014 /* TXSakuraShapeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraShapeLayer.h; sourceTree = "<group>"; };
+		9786BCA51F531880006B8014 /* TXSakuraShapeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraShapeLayer.m; sourceTree = "<group>"; };
+		9786BCA61F531880006B8014 /* TXSakuraSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraSlider.h; sourceTree = "<group>"; };
+		9786BCA71F531880006B8014 /* TXSakuraSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraSlider.m; sourceTree = "<group>"; };
+		9786BCA81F531880006B8014 /* TXSakuraSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraSwitch.h; sourceTree = "<group>"; };
+		9786BCA91F531880006B8014 /* TXSakuraSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraSwitch.m; sourceTree = "<group>"; };
+		9786BCAA1F531880006B8014 /* TXSakuraTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraTableView.h; sourceTree = "<group>"; };
+		9786BCAB1F531880006B8014 /* TXSakuraTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraTableView.m; sourceTree = "<group>"; };
+		9786BCAC1F531880006B8014 /* TXSakuraTextComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraTextComponent.h; sourceTree = "<group>"; };
+		9786BCAD1F531880006B8014 /* TXSakuraTextComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraTextComponent.m; sourceTree = "<group>"; };
+		9786BCAE1F531880006B8014 /* TXSakuraTrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraTrash.h; sourceTree = "<group>"; };
+		9786BCAF1F531880006B8014 /* TXSakuraTrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraTrash.m; sourceTree = "<group>"; };
+		9786BCB01F531880006B8014 /* TXSakuraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraView.h; sourceTree = "<group>"; };
+		9786BCB11F531880006B8014 /* TXSakuraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraView.m; sourceTree = "<group>"; };
+		9786BCB31F531880006B8014 /* TXSakura.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakura.h; sourceTree = "<group>"; };
+		9786BCB41F531880006B8014 /* TXSakura.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakura.m; sourceTree = "<group>"; };
+		9786BCB51F531880006B8014 /* TXSakuraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TXSakuraManager.h; sourceTree = "<group>"; };
+		9786BCB61F531880006B8014 /* TXSakuraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TXSakuraManager.m; sourceTree = "<group>"; };
 		9A75E43A9C31D77ADA2EBBDF /* Pods-SakuraDemo_OCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SakuraDemo_OCUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SakuraDemo_OCUITests/Pods-SakuraDemo_OCUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A26C39A110C9D32BEA3309BB /* Pods-SakuraDemo_OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SakuraDemo_OC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SakuraDemo_OC/Pods-SakuraDemo_OC.debug.xcconfig"; sourceTree = "<group>"; };
 		C983B2EEA4A468D4A23625D2 /* Pods-SakuraDemo_OCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SakuraDemo_OCUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SakuraDemo_OCUITests/Pods-SakuraDemo_OCUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -337,52 +337,68 @@
 		9749EB641F0B785200EA3C2D /* SakuraKit */ = {
 			isa = PBXGroup;
 			children = (
-				9749EB651F0B785200EA3C2D /* TXSakura.h */,
-				9749EB661F0B785200EA3C2D /* TXSakura.m */,
-				9749EB671F0B785200EA3C2D /* TXSakuraApplication.h */,
-				9749EB681F0B785200EA3C2D /* TXSakuraApplication.m */,
-				9749EB691F0B785200EA3C2D /* TXSakuraBar.h */,
-				9749EB6A1F0B785200EA3C2D /* TXSakuraBar.m */,
-				9749EB6B1F0B785200EA3C2D /* TXSakuraBarItem.h */,
-				9749EB6C1F0B785200EA3C2D /* TXSakuraBarItem.m */,
-				9749EB6D1F0B785200EA3C2D /* TXSakuraButton.h */,
-				9749EB6E1F0B785200EA3C2D /* TXSakuraButton.m */,
-				9749EB711F0B785200EA3C2D /* TXSakuraImageView.h */,
-				9749EB721F0B785200EA3C2D /* TXSakuraImageView.m */,
-				9749EB731F0B785200EA3C2D /* TXSakuraIndicatorView.h */,
-				9749EB741F0B785200EA3C2D /* TXSakuraIndicatorView.m */,
+				9786BCB21F531880006B8014 /* Base */,
+				9786BC8B1F531880006B8014 /* Components */,
 				9749EB751F0B785200EA3C2D /* TXSakuraKit.h */,
-				9749EB761F0B785200EA3C2D /* TXSakuraLabel.h */,
-				9749EB771F0B785200EA3C2D /* TXSakuraLabel.m */,
-				9749EB781F0B785200EA3C2D /* TXSakuraManager.h */,
-				9749EB791F0B785200EA3C2D /* TXSakuraManager.m */,
-				9749EB7A1F0B785200EA3C2D /* TXSakuraNavigationBar.h */,
-				9749EB7B1F0B785200EA3C2D /* TXSakuraNavigationBar.m */,
-				9749EB7C1F0B785200EA3C2D /* TXSakuraPageControl.h */,
-				9749EB7D1F0B785200EA3C2D /* TXSakuraPageControl.m */,
-				9749EB7E1F0B785200EA3C2D /* TXSakuraProgress.h */,
-				9749EB7F1F0B785200EA3C2D /* TXSakuraProgress.m */,
-				9749EB801F0B785200EA3C2D /* TXSakuraSlider.h */,
-				9749EB811F0B785200EA3C2D /* TXSakuraSlider.m */,
-				9749EB821F0B785200EA3C2D /* TXSakuraSwitch.h */,
-				9749EB831F0B785200EA3C2D /* TXSakuraSwitch.m */,
-				9749EB841F0B785200EA3C2D /* TXSakuraTableView.h */,
-				9749EB851F0B785200EA3C2D /* TXSakuraTableView.m */,
-				9749EB861F0B785200EA3C2D /* TXSakuraTextComponent.h */,
-				9749EB871F0B785200EA3C2D /* TXSakuraTextComponent.m */,
-				9749EB881F0B785200EA3C2D /* TXSakuraTrash.h */,
-				9749EB891F0B785200EA3C2D /* TXSakuraTrash.m */,
-				9749EB8A1F0B785200EA3C2D /* TXSakuraView.h */,
-				9749EB8B1F0B785200EA3C2D /* TXSakuraView.m */,
-				970EEF3A1F305B1400233D3A /* TXSakuraController.h */,
-				970EEF3B1F305B1400233D3A /* TXSakuraController.m */,
-				9765C06A1F4A77CB002F85A8 /* TXSakuraLayer.h */,
-				9765C06B1F4A77CB002F85A8 /* TXSakuraLayer.m */,
-				9765C06D1F4A77E0002F85A8 /* TXSakuraShapeLayer.h */,
-				9765C06E1F4A77E0002F85A8 /* TXSakuraShapeLayer.m */,
 			);
 			name = SakuraKit;
 			path = ../../../SakuraKit;
+			sourceTree = "<group>";
+		};
+		9786BC8B1F531880006B8014 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9786BC8C1F531880006B8014 /* TXSakuraApplication.h */,
+				9786BC8D1F531880006B8014 /* TXSakuraApplication.m */,
+				9786BC8E1F531880006B8014 /* TXSakuraBar.h */,
+				9786BC8F1F531880006B8014 /* TXSakuraBar.m */,
+				9786BC901F531880006B8014 /* TXSakuraBarItem.h */,
+				9786BC911F531880006B8014 /* TXSakuraBarItem.m */,
+				9786BC921F531880006B8014 /* TXSakuraButton.h */,
+				9786BC931F531880006B8014 /* TXSakuraButton.m */,
+				9786BC941F531880006B8014 /* TXSakuraController.h */,
+				9786BC951F531880006B8014 /* TXSakuraController.m */,
+				9786BC961F531880006B8014 /* TXSakuraImageView.h */,
+				9786BC971F531880006B8014 /* TXSakuraImageView.m */,
+				9786BC981F531880006B8014 /* TXSakuraIndicatorView.h */,
+				9786BC991F531880006B8014 /* TXSakuraIndicatorView.m */,
+				9786BC9A1F531880006B8014 /* TXSakuraLabel.h */,
+				9786BC9B1F531880006B8014 /* TXSakuraLabel.m */,
+				9786BC9C1F531880006B8014 /* TXSakuraLayer.h */,
+				9786BC9D1F531880006B8014 /* TXSakuraLayer.m */,
+				9786BC9E1F531880006B8014 /* TXSakuraNavigationBar.h */,
+				9786BC9F1F531880006B8014 /* TXSakuraNavigationBar.m */,
+				9786BCA01F531880006B8014 /* TXSakuraPageControl.h */,
+				9786BCA11F531880006B8014 /* TXSakuraPageControl.m */,
+				9786BCA21F531880006B8014 /* TXSakuraProgress.h */,
+				9786BCA31F531880006B8014 /* TXSakuraProgress.m */,
+				9786BCA41F531880006B8014 /* TXSakuraShapeLayer.h */,
+				9786BCA51F531880006B8014 /* TXSakuraShapeLayer.m */,
+				9786BCA61F531880006B8014 /* TXSakuraSlider.h */,
+				9786BCA71F531880006B8014 /* TXSakuraSlider.m */,
+				9786BCA81F531880006B8014 /* TXSakuraSwitch.h */,
+				9786BCA91F531880006B8014 /* TXSakuraSwitch.m */,
+				9786BCAA1F531880006B8014 /* TXSakuraTableView.h */,
+				9786BCAB1F531880006B8014 /* TXSakuraTableView.m */,
+				9786BCAC1F531880006B8014 /* TXSakuraTextComponent.h */,
+				9786BCAD1F531880006B8014 /* TXSakuraTextComponent.m */,
+				9786BCAE1F531880006B8014 /* TXSakuraTrash.h */,
+				9786BCAF1F531880006B8014 /* TXSakuraTrash.m */,
+				9786BCB01F531880006B8014 /* TXSakuraView.h */,
+				9786BCB11F531880006B8014 /* TXSakuraView.m */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9786BCB21F531880006B8014 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9786BCB31F531880006B8014 /* TXSakura.h */,
+				9786BCB41F531880006B8014 /* TXSakura.m */,
+				9786BCB51F531880006B8014 /* TXSakuraManager.h */,
+				9786BCB61F531880006B8014 /* TXSakuraManager.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		A35162890C675512A4939F44 /* Pods */ = {
@@ -689,42 +705,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9786BCC41F531880006B8014 /* TXSakuraSlider.m in Sources */,
+				9786BCCA1F531880006B8014 /* TXSakura.m in Sources */,
 				970EEF291F30290600233D3A /* DownloadSakuraController.m in Sources */,
 				970EEF2A1F30290600233D3A /* EditProfileController.m in Sources */,
-				9765C06F1F4A77E0002F85A8 /* TXSakuraShapeLayer.m in Sources */,
 				970EEF2B1F30290600233D3A /* FirstViewController.m in Sources */,
 				970EEF2C1F30290600233D3A /* FourthViewController.m in Sources */,
+				9786BCBC1F531880006B8014 /* TXSakuraImageView.m in Sources */,
+				9786BCC61F531880006B8014 /* TXSakuraTableView.m in Sources */,
 				970EEF2D1F30290600233D3A /* NavViewController.m in Sources */,
+				9786BCB91F531880006B8014 /* TXSakuraBarItem.m in Sources */,
+				9786BCCB1F531880006B8014 /* TXSakuraManager.m in Sources */,
 				970EEF2E1F30290600233D3A /* PopViewController.m in Sources */,
 				970EEF2F1F30290600233D3A /* PushViewController.m in Sources */,
+				9786BCBE1F531880006B8014 /* TXSakuraLabel.m in Sources */,
+				9786BCC81F531880006B8014 /* TXSakuraTrash.m in Sources */,
+				9786BCBF1F531880006B8014 /* TXSakuraLayer.m in Sources */,
+				9786BCB71F531880006B8014 /* TXSakuraApplication.m in Sources */,
 				970EEF301F30290600233D3A /* SecondViewController.m in Sources */,
+				9786BCC51F531880006B8014 /* TXSakuraSwitch.m in Sources */,
+				9786BCC91F531880006B8014 /* TXSakuraView.m in Sources */,
 				970EEF311F30290600233D3A /* ThirdViewController.m in Sources */,
 				970EEF321F30290600233D3A /* SakuraModel.m in Sources */,
-				9765C06C1F4A77CB002F85A8 /* TXSakuraLayer.m in Sources */,
+				9786BCC01F531880006B8014 /* TXSakuraNavigationBar.m in Sources */,
+				9786BCC31F531880006B8014 /* TXSakuraShapeLayer.m in Sources */,
 				970EEF331F30290600233D3A /* AppDelegate.m in Sources */,
 				970EEF341F30290600233D3A /* NSObject+TXExeDeallocBlock.m in Sources */,
+				9786BCBB1F531880006B8014 /* TXSakuraController.m in Sources */,
+				9786BCC11F531880006B8014 /* TXSakuraPageControl.m in Sources */,
+				9786BCB81F531880006B8014 /* TXSakuraBar.m in Sources */,
+				9786BCBD1F531880006B8014 /* TXSakuraIndicatorView.m in Sources */,
 				970EEF361F30291000233D3A /* SakuraCell.m in Sources */,
+				9786BCBA1F531880006B8014 /* TXSakuraButton.m in Sources */,
 				970EEF351F30290600233D3A /* TXExeDeallocBlock.m in Sources */,
-				9749EB9D1F0B785200EA3C2D /* TXSakuraTrash.m in Sources */,
-				9749EB991F0B785200EA3C2D /* TXSakuraSlider.m in Sources */,
-				9749EB8C1F0B785200EA3C2D /* TXSakura.m in Sources */,
-				9749EB941F0B785200EA3C2D /* TXSakuraLabel.m in Sources */,
-				9749EB8F1F0B785200EA3C2D /* TXSakuraBarItem.m in Sources */,
-				9749EB901F0B785200EA3C2D /* TXSakuraButton.m in Sources */,
-				9749EB981F0B785200EA3C2D /* TXSakuraProgress.m in Sources */,
-				9749EB9B1F0B785200EA3C2D /* TXSakuraTableView.m in Sources */,
+				9786BCC71F531880006B8014 /* TXSakuraTextComponent.m in Sources */,
 				9749EB421F0B779700EA3C2D /* main.m in Sources */,
-				9749EB9C1F0B785200EA3C2D /* TXSakuraTextComponent.m in Sources */,
-				9749EB961F0B785200EA3C2D /* TXSakuraNavigationBar.m in Sources */,
-				9749EB931F0B785200EA3C2D /* TXSakuraIndicatorView.m in Sources */,
-				9749EB9E1F0B785200EA3C2D /* TXSakuraView.m in Sources */,
-				9749EB971F0B785200EA3C2D /* TXSakuraPageControl.m in Sources */,
-				970EEF3C1F305B1400233D3A /* TXSakuraController.m in Sources */,
-				9749EB921F0B785200EA3C2D /* TXSakuraImageView.m in Sources */,
-				9749EB9A1F0B785200EA3C2D /* TXSakuraSwitch.m in Sources */,
-				9749EB8E1F0B785200EA3C2D /* TXSakuraBar.m in Sources */,
-				9749EB951F0B785200EA3C2D /* TXSakuraManager.m in Sources */,
-				9749EB8D1F0B785200EA3C2D /* TXSakuraApplication.m in Sources */,
+				9786BCC21F531880006B8014 /* TXSakuraProgress.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
