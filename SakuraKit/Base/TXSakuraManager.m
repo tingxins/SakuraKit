@@ -725,7 +725,6 @@ static NSString *kTXSakuraDiretoryName = @"com.tingxins.sakura";
 
 // Sakura/[folderName]/[zipFileName.zip]
 + (NSString *)_getSakuraZipFileSandboxPathWithName:(NSString *)name {
-#warning TODO + Support .zip file only!
     NSString *fileName = [name stringByAppendingPathExtension:kTXFileExtensionZIP];
     NSString *zipFilePath = [[self tx_getSakuraSandboxPathWithName:name] stringByAppendingPathComponent:fileName];
     return zipFilePath;
@@ -765,11 +764,11 @@ static NSString *kTXSakuraDiretoryName = @"com.tingxins.sakura";
     if (!url) return nil;
     // Sakura do not exist in local ?
     NSString *configsName = [TXSakuraManager _getSakuraNameWithInfos:infos];
-    BOOL isAlreadyExist = [TXSakuraManager tx_tryGetSakuraConfigsFileSandboxPathWithName:configsName];
+    NSString *isAlreadyExist = [TXSakuraManager tx_tryGetSakuraConfigsFileSandboxPathWithName:configsName];
     // Is alreadying download ?
     BOOL isDownloading = [_sakuraDownloadTaskCache.allKeys containsObject:infos.remoteURL];
     // Status changing.
-    if (isAlreadyExist) {
+    if (isAlreadyExist && isAlreadyExist.length) {
         *status = TXSakuraDownloadTaskStatusAlreadyExist;
         return nil;
     }
