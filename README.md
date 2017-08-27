@@ -2,7 +2,7 @@
 <img src="http://image.tingxins.cn/sakura/sakura-kit-logo.png" width=888/>
 </p>
 
-**SakuraKit** is a lightweight and powerful library for application switching themes or skins, inspired by SwiftTheme and DKNightVersion. Its provides chain and functional programming, that is more readable for your codes.
+**SakuraKit** is a lightweight and powerful library for application to switching themes or skins, inspired by SwiftTheme and DKNightVersion. Its provides chain and functional programming, that is more readable for your codes.
 
 For **Demo** take a look at the SakuraDemo_OC, an iOS example project in the workspace. You will need to run `pod install` after downloading.
 
