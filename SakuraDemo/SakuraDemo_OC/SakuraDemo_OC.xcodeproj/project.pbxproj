@@ -24,9 +24,9 @@
 		970EEF341F30290600233D3A /* NSObject+TXExeDeallocBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 970EEF1F1F3028B700233D3A /* NSObject+TXExeDeallocBlock.m */; };
 		970EEF351F30290600233D3A /* TXExeDeallocBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 970EEF211F3028B700233D3A /* TXExeDeallocBlock.m */; };
 		970EEF361F30291000233D3A /* SakuraCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 970EEF271F3028B700233D3A /* SakuraCell.m */; };
-		970EEF371F30294300233D3A /* SakuraCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 970EEF281F3028B700233D3A /* SakuraCell.xib */; };
 		970EEF381F30296700233D3A /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 970EEF231F3028B700233D3A /* avatar.jpg */; };
 		970EEF391F30296700233D3A /* default.json in Resources */ = {isa = PBXBuildFile; fileRef = 970EEF241F3028B700233D3A /* default.json */; };
+		9715A3851F53AD0C00FFDE1D /* SakuraCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9715A3831F53AD0C00FFDE1D /* SakuraCell.xib */; };
 		9739FD9C1F4DBAA70042AF9E /* typewriter.json in Resources */ = {isa = PBXBuildFile; fileRef = 9739FD9B1F4DB8E50042AF9E /* typewriter.json */; };
 		9749EB3A1F0B779700EA3C2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9749EB381F0B779700EA3C2D /* Main.storyboard */; };
 		9749EB3C1F0B779700EA3C2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9749EB3B1F0B779700EA3C2D /* Assets.xcassets */; };
@@ -108,7 +108,7 @@
 		970EEF241F3028B700233D3A /* default.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = default.json; sourceTree = "<group>"; };
 		970EEF261F3028B700233D3A /* SakuraCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SakuraCell.h; sourceTree = "<group>"; };
 		970EEF271F3028B700233D3A /* SakuraCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SakuraCell.m; sourceTree = "<group>"; };
-		970EEF281F3028B700233D3A /* SakuraCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SakuraCell.xib; sourceTree = "<group>"; };
+		9715A3831F53AD0C00FFDE1D /* SakuraCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SakuraCell.xib; sourceTree = "<group>"; };
 		9739FD9B1F4DB8E50042AF9E /* typewriter.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = typewriter.json; sourceTree = "<group>"; };
 		9749EB2F1F0B779700EA3C2D /* SakuraDemo_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SakuraDemo_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9749EB391F0B779700EA3C2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -275,7 +275,7 @@
 			children = (
 				970EEF261F3028B700233D3A /* SakuraCell.h */,
 				970EEF271F3028B700233D3A /* SakuraCell.m */,
-				970EEF281F3028B700233D3A /* SakuraCell.xib */,
+				9715A3831F53AD0C00FFDE1D /* SakuraCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -537,11 +537,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9749EB3F1F0B779700EA3C2D /* LaunchScreen.storyboard in Resources */,
+				9715A3851F53AD0C00FFDE1D /* SakuraCell.xib in Resources */,
 				970EEF381F30296700233D3A /* avatar.jpg in Resources */,
 				9749EB3C1F0B779700EA3C2D /* Assets.xcassets in Resources */,
 				9739FD9C1F4DBAA70042AF9E /* typewriter.json in Resources */,
 				970EEF391F30296700233D3A /* default.json in Resources */,
-				970EEF371F30294300233D3A /* SakuraCell.xib in Resources */,
 				9749EB3A1F0B779700EA3C2D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
