@@ -41,7 +41,7 @@
     self.listDataTask = [session dataTaskWithURL:url completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
         if (!data || error) return;
         NSArray *jsons = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
-        if (jsons) {
+        if ([jsons isKindOfClass:[NSArray class]]) {
             dispatch_async(dispatch_get_main_queue(), ^{
                 NSArray *array = [SakuraModel sakuraModelWithDicts:jsons];
                 [self.dataSource addObjectsFromArray:array];
@@ -49,7 +49,7 @@
                 [self.indicatorView stopAnimating];
             });
         }
-        
+        [self.indicatorView stopAnimating];
     }];
     [self.listDataTask resume];
     [self.listDataTask tx_runBlockAtDealloc:^{
