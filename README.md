@@ -296,16 +296,20 @@ Show the code that you want:
 # FQA
 
 **Q: Why do each theme has its own profile?**
-A: Because each theme, beside the name of icons are the same, and different themes background color, font size may not be the same. So each theme should have its own profile, unless you just want to making theme only for icons.
+
+**A:** Because each theme, beside the name of icons are the same, and different themes background color, font size may not be the same. So each theme should have its own profile, unless you just want to making theme only for icons.
 
 **Q: Why is the sakura name should be consistent with the profile name of corresponding theme?**
-A: This is only a convention for us. when switching theme, [SakuraKit] (https://github.com/tingxins/SakuraKit) will through the theme name to find the theme in the local or in the sandbox path, making both theme and profile name the same, you will reduce some unnecessary workload.
+
+**A:** This is only a convention for us. when switching theme, [SakuraKit] (https://github.com/tingxins/SakuraKit) will through the theme name to find the theme in the local or in the sandbox path, making both theme and profile name the same, you will reduce some unnecessary workload.
 
 **Q: What is the difference between bundle and sandbox themes?**
-A: Actually. Bundle theme, we called the local theme. Remote theme also called sandbox theme.
+
+**A:** Actually. Bundle theme, we called the local theme. Remote theme also called sandbox theme.
 
 **Q: Do SakuraKit have a version that written in Swift?**
-A: No. Will Coming soon.
+
+**A:** No. Will Coming soon.
 
 # Communication
 
