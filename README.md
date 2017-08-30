@@ -309,7 +309,7 @@ Show the code that you want:
 
 **Q: Do SakuraKit have a version that written in Swift?**
 
-**A:** No. Will Coming soon.
+**A:** No. Will Coming soon. If you are really need it now. Here's an example for Using Swift with SakuraKitOC. ([SakuraKitOCForSwiftDemo](https://github.com/tingxins/Examples-Usage/tree/master/SakuraKitOCForSwiftDemo))
 
 # Communication
 
