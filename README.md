@@ -301,7 +301,7 @@ Show the code that you want:
 
 **Q: Why is the sakura name should be consistent with the profile name of corresponding theme?**
 
-**A:** This is only a convention for us. when switching theme, [SakuraKit] (https://github.com/tingxins/SakuraKit) will through the theme name to find the theme in the local or in the sandbox path, making both theme and profile name the same, you will reduce some unnecessary workload.
+**A:** This is only a convention for us. when switching theme, [SakuraKit](https://github.com/tingxins/SakuraKit) will through the theme name to find the theme in the local or in the sandbox path, making both theme and profile name the same, you will reduce some unnecessary workload.
 
 **Q: What is the difference between bundle and sandbox themes?**
 
