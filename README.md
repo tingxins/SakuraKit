@@ -5,7 +5,7 @@
 
 <p align="center">
 <a href=""><img src="https://img.shields.io/badge/language-Objectivc--C-blue.svg"></a>
-<a href="http://cocoadocs.org/docsets/InputKit"><img src="https://img.shields.io/cocoapods/v/SakuraKit.svg?style=flat"></a>
+<a href="http://cocoadocs.org/docsets/SakuraKit"><img src="https://img.shields.io/cocoapods/v/SakuraKit.svg?style=flat"></a>
 <a href="https://github.com/Carthage/Carthage"><img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat"></a>
 <a href="https://github.com/tingxins/SakuraKit"><img src="https://img.shields.io/cocoapods/p/SakuraKit.svg?style=flat"></a>
 <a href="https://github.com/tingxins/SakuraKit"><img src="https://img.shields.io/badge/support-iOS%208%2B-brightgreen.svg"></a>
