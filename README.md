@@ -63,7 +63,7 @@ Run carthage to build the frameworks and drag the **SakuraKit.framework** framew
 
 ## Test Demo
 
-![sakura-kit-demo](http://image.tingxins.cn/sakura/sakura-kit-demo.gif)
+![x-sakura-kit-demo](http://image.tingxins.cn/sakura/x-sakura-kit-demo.gif)
 
 ## Use Case
 
