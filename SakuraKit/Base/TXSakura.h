@@ -8,7 +8,7 @@
 /** Category declare */
 #define TXSakuraCategoryDeclare(ClassName, PropertyClassName)\
 @interface ClassName (TX)\
-@property (strong, nonatomic) PropertyClassName *sakura;\
+@property (readonly, strong, nonatomic) PropertyClassName *sakura;\
 @end
 
 #define TXSakuraCategoryImplementation(ClassName, PropertyClassName)\
