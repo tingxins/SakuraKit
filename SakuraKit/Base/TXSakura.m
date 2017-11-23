@@ -48,6 +48,8 @@ NSTimeInterval const TXSakuraSkinChangeDuration = 0.25;
 @interface TXSakura ()
 
 @property (assign, nonatomic) UIImageRenderingMode imageRenderingMode;
+@property (assign, nonatomic) UIEdgeInsets imageEdgeInsets;
+@property (assign, nonatomic) UIImageResizingMode imageResizingMode;
 // single arg
 @property (strong, nonatomic) NSDictionary *innerSkins1D;
 // double args
@@ -95,6 +97,8 @@ NSTimeInterval const TXSakuraSkinChangeDuration = 0.25;
     if (self = [super init]) {
         _owner = owner;
         _imageRenderingMode = UIImageRenderingModeAlwaysOriginal;
+        _imageEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 0);
+        _imageResizingMode = UIImageResizingModeStretch;
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateSakuraSkins) name:TXSakuraSkinChangeNotification object:nil];
     }
     return self;
@@ -107,6 +111,12 @@ NSTimeInterval const TXSakuraSkinChangeDuration = 0.25;
 - (void)setImageRenderingMode:(UIImageRenderingMode)renderingMode {
     _imageRenderingMode = renderingMode;
     
+}
+- (void)setResizingMode:(UIImageResizingMode)resizingMode{
+    _imageResizingMode = resizingMode;
+}
+- (void)setResizableImageWithCapInsets:(UIEdgeInsets)insets{
+    _imageEdgeInsets = insets;
 }
 
 /** Update skins */
@@ -128,7 +138,7 @@ NSTimeInterval const TXSakuraSkinChangeDuration = 0.25;
         id(*msg)(id, SEL, id) = (id(*)(id, SEL, id))objc_msgSend;
         id vector = msg(TXSakuraManager.class, sel, path);
         if ([vector isKindOfClass:[UIImage class]]) {
-            vector = [(UIImage *)vector imageWithRenderingMode:_imageRenderingMode];
+            vector = [[(UIImage *)vector imageWithRenderingMode:_imageRenderingMode] resizableImageWithCapInsets:_imageEdgeInsets resizingMode:_imageResizingMode];
         }
         return vector;
     }

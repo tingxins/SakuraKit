@@ -22,8 +22,8 @@
 }
 
 - (void)configsTheme {
-    self.navigationBar.sakura.backgroundImage(@"Global.nav_backImage",UIBarMetricsDefault);
-    
+    self.navigationBar.sakura.backgroundImage(@"Global.tabBarBackgroundImage",UIBarMetricsDefault);
+    [self.navigationBar.sakura setImageRenderingMode:UIImageRenderingModeAutomatic];
 }
 
 @end

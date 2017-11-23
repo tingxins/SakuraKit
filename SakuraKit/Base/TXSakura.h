@@ -72,7 +72,10 @@ UIKIT_EXTERN NSString *const TXSakuraSkinChangeNotification;
 
 /** Set rendering mode of UIImage.(UIImageRenderingModeAlwaysOriginal default.) */
 - (void)setImageRenderingMode:(UIImageRenderingMode)renderingMode;
-
+//default UIEdgeInsetsMake(0, 0, 0, 0)
+- (void)setResizableImageWithCapInsets:(UIEdgeInsets)insets;
+//default UIImageResizingModeStretch
+- (void)setResizingMode:(UIImageResizingMode)resizingMode;
 @end
 
 @interface TXSakura(TXBlocker)
