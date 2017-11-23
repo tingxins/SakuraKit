@@ -18,7 +18,7 @@ char *const kTXSakuraSELHeader = "set";
 char *const kTXSakuraSELCon = ":";
 NSString *const kTXSakura2DStateSELTail = @"forState:";
 NSString *const kTXSakura2DAnimatedSELTail = @"animated:";
-
+NSString *const kTXSakura2DBarMetricsSELTail = @"forBarMetrics:";
 #pragma mark - Config TYPE OF ARG
 
 NSString *const kTXSakuraArgCustomInt = @"com.tingxins.sakura.arg.custom.int";
@@ -589,6 +589,13 @@ NSTimeInterval const TXSakuraSkinChangeDuration = 0.25;
     return ^TXSakura *(NSString *path, BOOL animated){
         return [self send2DMsgIntAndIntWithName:name keyPath:path integ:animated selTail:kTXSakura2DAnimatedSELTail argType:kTXSakuraArgStatusBarStyle valueBlock:^NSInteger(NSString *keyPath) {
             return [TXSakuraManager tx_statusBarStyleWithPath:path];
+        }];
+    };
+}
+- (TXSakura2DBarMetricsBlock)tx_sakuraImageForBarMetricsBlockWithName:(NSString *)name{
+    return ^TXSakura *(NSString *path, UIBarMetrics barMetrics){
+        return [self send2DMsgObjectAndIntWithName:name keyPath:path integ:barMetrics selTail:kTXSakura2DBarMetricsSELTail argType:kTXSakuraArgImage valueBlock:^NSObject *(NSString *keyPath) {
+            return [TXSakuraManager tx_imageWithPath:keyPath];
         }];
     };
 }

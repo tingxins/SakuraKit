@@ -41,7 +41,8 @@ typedef Class *(^Class##2DUIntBlock)(NSString *, NSUInteger);
 
 #define TXSakuraBlockCustomDeclare(Class)\
 typedef Class *(^Class##CustomBlock)(NSString *propertyName, NSString *keyPath);
-
+#define TXSakura2DBarMetricsBlockDeclare(Class)\
+typedef Class *(^Class##2DBarMetricsBlock)(NSString *, UIBarMetrics);
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
@@ -50,6 +51,7 @@ typedef Class *(^Class##CustomBlock)(NSString *propertyName, NSString *keyPath);
 TXSakuraBlockDeclare(TXSakura)
 TXSakura2DUIntBlockDeclare(TXSakura)
 TXSakura2DBoolBlockDeclare(TXSakura)
+TXSakura2DBarMetricsBlockDeclare(TXSakura)
 
 UIKIT_EXTERN NSString *const TXSakuraSkinChangeNotification;
 
@@ -109,6 +111,8 @@ UIKIT_EXTERN NSString *const TXSakuraSkinChangeNotification;
 - (TXSakura2DUIntBlock)tx_sakuraTitleTextAttributesForStateBlockWithName:(NSString *)name;
 
 - (TXSakura2DBoolBlock)tx_sakuraApplicationForStyleBlockWithName:(NSString *)name;
+
+- (TXSakura2DBarMetricsBlock)tx_sakuraImageForBarMetricsBlockWithName:(NSString *)name;
 
 @end
 
