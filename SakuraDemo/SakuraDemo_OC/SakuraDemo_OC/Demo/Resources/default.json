@@ -8,6 +8,7 @@
         "tabTitleColor":"#1B2026",
         "tabTitleSelectColor":"#6638F0",
         "tabBarBackgroundImage":"cm2_btm_bg",
+        "nav_backImage":"cm2_btm_bg",
         "tintColor":"#BB503D",
         "navBarTitleColor":{
             "NSForegroundColorAttributeName" : "#F6F6F6",
