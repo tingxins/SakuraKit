@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		03FE063C4BB708FF30403FF9 /* libPods-SakuraDemo_OCUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F48AA32C4919ED3D6219B2C /* libPods-SakuraDemo_OCUITests.a */; };
 		17C664855B7BD4307D8D596C /* libPods-SakuraDemo_OCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7742DD85D722338289D89DF1 /* libPods-SakuraDemo_OCTests.a */; };
+		36554A851FC7CAB0000AB607 /* TXSakuraMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 36554A841FC7CAB0000AB607 /* TXSakuraMutableArray.m */; };
 		367F9CBB1FC6A88800AF2939 /* default.json in Resources */ = {isa = PBXBuildFile; fileRef = 367F9CB91FC6A88800AF2939 /* default.json */; };
 		367F9CBC1FC6A88800AF2939 /* typewriter.json in Resources */ = {isa = PBXBuildFile; fileRef = 367F9CBA1FC6A88800AF2939 /* typewriter.json */; };
 		3F9DADD310362D1BA3C417B9 /* libPods-SakuraDemo_OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF289FACD564079C21D2A426 /* libPods-SakuraDemo_OC.a */; };
@@ -76,6 +77,8 @@
 
 /* Begin PBXFileReference section */
 		0409A3240311EC992C883334 /* Pods-SakuraDemo_OCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SakuraDemo_OCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SakuraDemo_OCTests/Pods-SakuraDemo_OCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		36554A831FC7CAB0000AB607 /* TXSakuraMutableArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TXSakuraMutableArray.h; sourceTree = "<group>"; };
+		36554A841FC7CAB0000AB607 /* TXSakuraMutableArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXSakuraMutableArray.m; sourceTree = "<group>"; };
 		367F9CB91FC6A88800AF2939 /* default.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = default.json; sourceTree = "<group>"; };
 		367F9CBA1FC6A88800AF2939 /* typewriter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = typewriter.json; sourceTree = "<group>"; };
 		3F48AA32C4919ED3D6219B2C /* libPods-SakuraDemo_OCUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SakuraDemo_OCUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -201,6 +204,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36554A821FC7CA5C000AB607 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				36554A831FC7CAB0000AB607 /* TXSakuraMutableArray.h */,
+				36554A841FC7CAB0000AB607 /* TXSakuraMutableArray.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
 		970EEF041F3028B700233D3A /* Demo */ = {
 			isa = PBXGroup;
 			children = (
@@ -339,6 +351,7 @@
 			children = (
 				9786BCB21F531880006B8014 /* Base */,
 				9786BC8B1F531880006B8014 /* Components */,
+				36554A821FC7CA5C000AB607 /* Foundation */,
 				9749EB751F0B785200EA3C2D /* TXSakuraKit.h */,
 			);
 			name = SakuraKit;
@@ -747,6 +760,7 @@
 				970EEF361F30291000233D3A /* SakuraCell.m in Sources */,
 				9786BCBA1F531880006B8014 /* TXSakuraButton.m in Sources */,
 				970EEF351F30290600233D3A /* TXExeDeallocBlock.m in Sources */,
+				36554A851FC7CAB0000AB607 /* TXSakuraMutableArray.m in Sources */,
 				9786BCC71F531880006B8014 /* TXSakuraTextComponent.m in Sources */,
 				9749EB421F0B779700EA3C2D /* main.m in Sources */,
 				9786BCC21F531880006B8014 /* TXSakuraProgress.m in Sources */,

@@ -105,6 +105,8 @@ UIKIT_EXTERN NSString *const TXSakuraSkinChangeNotification;
 
 - (TXSakuraBlock)tx_sakuraBarStyleBlockWithName:(NSString *)name;
 
+- (TXSakuraBlock)tx_sakuraArrayBlockWithName:(NSString *)name;
+
 #pragma mark - 2D Block
 
 - (TXSakura2DUIntBlock)tx_sakuraTitleColorForStateBlockWithName:(NSString *)name;

@@ -38,6 +38,7 @@ NSString *const kTXSakuraArgBarStyle = @"com.tingxins.sakura.arg.barStyle";
 NSString *const kTXSakuraArgTitle = @"com.tingxins.sakura.arg.title";
 NSString *const kTXSakuraArgKeyboardAppearance = @"com.tingxins.sakura.arg.keyboardAppearance";
 NSString *const kTXSakuraActivityIndicatorViewStyle = @"com.tingxins.sakura.arg.activityIndicatorViewStyle";
+NSString *const kTXSakuraSetMutableArray = @"com.tingxins.sakura.arg.setMutableArray";
 
 
 #pragma mark - FUNC VAR
@@ -565,6 +566,14 @@ NSTimeInterval const TXSakuraSkinChangeDuration = 0.25;
     return ^TXSakura *(NSString *path){
         return [self send1DMsgEnumWithName:name keyPath:path arg:kTXSakuraArgBarStyle valueBlock:^NSInteger(NSString *keyPath) {
             return [TXSakuraManager tx_barStyleWithPath:keyPath];
+        }];
+    };
+}
+
+- (TXSakuraBlock)tx_sakuraArrayBlockWithName:(NSString *)name{
+    return ^TXSakura *(NSString *path){
+        return [self send1DMsgObjectWithName:name keyPath:path arg:kTXSakuraSetMutableArray valueBlock:^NSObject *(NSString *keyPath) {
+            return [TXSakuraManager tx_arrayWithPath:keyPath];
         }];
     };
 }
