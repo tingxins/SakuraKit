@@ -41,7 +41,8 @@ typedef Class *(^Class##2DUIntBlock)(NSString *, NSUInteger);
 
 #define TXSakuraBlockCustomDeclare(Class)\
 typedef Class *(^Class##CustomBlock)(NSString *propertyName, NSString *keyPath);
-
+#define TXSakura2DBarMetricsBlockDeclare(Class)\
+typedef Class *(^Class##2DBarMetricsBlock)(NSString *, UIBarMetrics);
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
@@ -50,6 +51,7 @@ typedef Class *(^Class##CustomBlock)(NSString *propertyName, NSString *keyPath);
 TXSakuraBlockDeclare(TXSakura)
 TXSakura2DUIntBlockDeclare(TXSakura)
 TXSakura2DBoolBlockDeclare(TXSakura)
+TXSakura2DBarMetricsBlockDeclare(TXSakura)
 
 UIKIT_EXTERN NSString *const TXSakuraSkinChangeNotification;
 
@@ -70,7 +72,10 @@ UIKIT_EXTERN NSString *const TXSakuraSkinChangeNotification;
 
 /** Set rendering mode of UIImage.(UIImageRenderingModeAlwaysOriginal default.) */
 - (void)setImageRenderingMode:(UIImageRenderingMode)renderingMode;
-
+//default UIEdgeInsetsMake(0, 0, 0, 0)
+- (void)setResizableImageWithCapInsets:(UIEdgeInsets)insets;
+//default UIImageResizingModeStretch
+- (void)setResizingMode:(UIImageResizingMode)resizingMode;
 @end
 
 @interface TXSakura(TXBlocker)
@@ -100,6 +105,8 @@ UIKIT_EXTERN NSString *const TXSakuraSkinChangeNotification;
 
 - (TXSakuraBlock)tx_sakuraBarStyleBlockWithName:(NSString *)name;
 
+- (TXSakuraBlock)tx_sakuraArrayBlockWithName:(NSString *)name;
+
 #pragma mark - 2D Block
 
 - (TXSakura2DUIntBlock)tx_sakuraTitleColorForStateBlockWithName:(NSString *)name;
@@ -109,6 +116,8 @@ UIKIT_EXTERN NSString *const TXSakuraSkinChangeNotification;
 - (TXSakura2DUIntBlock)tx_sakuraTitleTextAttributesForStateBlockWithName:(NSString *)name;
 
 - (TXSakura2DBoolBlock)tx_sakuraApplicationForStyleBlockWithName:(NSString *)name;
+
+- (TXSakura2DBarMetricsBlock)tx_sakuraImageForBarMetricsBlockWithName:(NSString *)name;
 
 @end
 

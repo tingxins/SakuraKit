@@ -26,4 +26,6 @@
 #import "TXSakuraIndicatorView.h"
 #import "TXSakuraController.h"
 #import "TXSakuraShapeLayer.h"
+
+#import "TXSakuraMutableArray.h"
 #endif /* TXSakuraKit_h */

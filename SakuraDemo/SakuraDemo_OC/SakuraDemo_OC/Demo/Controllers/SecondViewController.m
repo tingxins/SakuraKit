@@ -11,6 +11,7 @@
 
 @interface SecondViewController ()<TXSakuraDownloadDelegate>
 @property (weak, nonatomic) IBOutlet UIImageView *bgImageView;
+@property (weak, nonatomic) IBOutlet UISlider *slider;
 
 @end
 
@@ -28,6 +29,8 @@
     
     self.bgImageView.sakura
     .image(@"Second.backgroundImage");
+    
+    self.slider.sakura.thumbImage(@"Second.tabImage",UIControlStateNormal);
 }
 
 #pragma mark - Table view data source
