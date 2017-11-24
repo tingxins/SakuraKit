@@ -22,11 +22,8 @@
 }
 
 - (void)configsTheme {
-    self.navigationBar.sakura
-    .barTintColor(@"Global.barTintColor")
-    .tintColor(@"Global.tintColor")
-    .titleTextAttributes(@"Global.navBarTitleColor");
-    
+    self.navigationBar.sakura.backgroundImage(@"Global.tabBarBackgroundImage",UIBarMetricsDefault);
+    [self.navigationBar.sakura setImageRenderingMode:UIImageRenderingModeAutomatic];
 }
 
 @end

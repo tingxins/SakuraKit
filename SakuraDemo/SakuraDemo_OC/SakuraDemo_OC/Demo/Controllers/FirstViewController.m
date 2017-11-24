@@ -13,6 +13,7 @@
 @property (strong, nonatomic) IBOutletCollection(UIImageView) NSArray *avatarImageViews;
 @property (strong, nonatomic) IBOutletCollection(UILabel) NSArray *userNames;
 @property (strong, nonatomic) IBOutletCollection(UILabel) NSArray *userIntros;
+@property (strong, nonatomic) NSMutableArray *dataSource;
 @end
 
 @implementation FirstViewController
@@ -24,6 +25,13 @@
     
     AppDelegate *delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
     [[UIApplication sharedApplication].keyWindow addSubview:delegate.label];
+    self.dataSource = [NSMutableArray array];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(change) name:TXSakuraSkinChangeNotification object:nil];
+}
+
+- (void)change{
+    self.dataSource.sakura.array(@"Global.test_array");
+    NSLog(@"%@",self.dataSource);
 }
 
 - (void)configsTheme {
@@ -50,6 +58,10 @@
     
     self.tableView.sakura
     .separatorColor(@"First.separatorColor");
+}
+
+- (void)viewWillAppear:(BOOL)animated{
+    
 }
 
 @end

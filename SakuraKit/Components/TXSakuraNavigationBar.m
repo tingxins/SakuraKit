@@ -21,7 +21,9 @@
 - (TXSakuraNavigationBarBlock)titleTextAttributes {
     return (TXSakuraNavigationBarBlock)[super tx_sakuraTitleTextAttributesBlockWithName:NSStringFromSelector(_cmd)];
 }
-
+- (TXSakuraNavigationBar2DBarMetricsBlock)backgroundImage{
+    return (TXSakuraNavigationBar2DBarMetricsBlock)[super tx_sakuraImageForBarMetricsBlockWithName:NSStringFromSelector(_cmd)];
+}
 @end
 
 TXSakuraCategoryImplementation(UINavigationBar, TXSakuraNavigationBar)

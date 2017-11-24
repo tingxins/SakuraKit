@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13156.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="09S-hD-aLS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="09S-hD-aLS">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13137.5"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -172,7 +173,7 @@
                 <navigationController title="优分销" id="mTC-uL-05V" customClass="NavViewController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="优分销" image="cm2_btm_icn_discovery.png" selectedImage="cm2_btm_icn_discovery_prs.png" id="OnN-EK-j46"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="wKE-Tt-Rx7">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -218,10 +219,19 @@
                                                         <segue destination="mbJ-fZ-n80" kind="presentation" id="cVE-KV-SNu"/>
                                                     </connections>
                                                 </button>
+                                                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="eEb-EB-sYh">
+                                                    <rect key="frame" x="35" y="199" width="304" height="31"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="30" id="bJu-Qw-vBP"/>
+                                                    </constraints>
+                                                </slider>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="Vk1-Bg-JcZ" firstAttribute="top" secondItem="UZG-ga-OSH" secondAttribute="top" id="0SV-b4-WBT"/>
                                                 <constraint firstItem="Vk1-Bg-JcZ" firstAttribute="leading" secondItem="UZG-ga-OSH" secondAttribute="leading" id="Kcx-ZZ-cqe"/>
+                                                <constraint firstItem="eEb-EB-sYh" firstAttribute="width" secondItem="Vk1-Bg-JcZ" secondAttribute="width" multiplier="0.8" id="MKz-tP-R5W"/>
+                                                <constraint firstItem="ltI-tB-Qxe" firstAttribute="top" secondItem="eEb-EB-sYh" secondAttribute="bottom" constant="50" id="aCC-hy-yIn"/>
+                                                <constraint firstItem="eEb-EB-sYh" firstAttribute="centerX" secondItem="Vk1-Bg-JcZ" secondAttribute="centerX" id="aIU-L9-229"/>
                                                 <constraint firstAttribute="bottom" secondItem="Vk1-Bg-JcZ" secondAttribute="bottom" id="ig5-9s-ho9"/>
                                                 <constraint firstAttribute="trailing" secondItem="Vk1-Bg-JcZ" secondAttribute="trailing" id="j4G-Xg-tJS"/>
                                                 <constraint firstItem="ltI-tB-Qxe" firstAttribute="centerY" secondItem="UZG-ga-OSH" secondAttribute="centerY" id="k5S-qp-cyb"/>
@@ -240,6 +250,7 @@
                     <navigationItem key="navigationItem" title="本地商家" id="RSV-zi-IHA"/>
                     <connections>
                         <outlet property="bgImageView" destination="Vk1-Bg-JcZ" id="EFY-Df-kZ8"/>
+                        <outlet property="slider" destination="eEb-EB-sYh" id="CtQ-kv-Kqm"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wjg-B0-nPG" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -302,7 +313,7 @@
                 <navigationController id="Plz-h4-sc6" customClass="NavViewController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="本地商家" image="cm2_btm_icn_music.png" selectedImage="cm2_btm_icn_music_prs" id="mzD-bg-xAr"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Y3H-sg-8EZ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -405,7 +416,7 @@
                     <tabBarItem key="tabBarItem" title="自营商城" image="cm2_btm_icn_friend" selectedImage="cm2_btm_icn_friend_prs" id="YVs-as-BbY"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="8xk-sA-y89">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -439,14 +450,14 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="600"/>
                                                 </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="NU9-Al-y2U">
-                                                    <rect key="frame" x="28" y="28" width="80" height="80"/>
+                                                    <rect key="frame" x="36" y="31" width="80" height="80"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="80" id="3ff-kr-gqh"/>
                                                         <constraint firstAttribute="height" constant="80" id="EmF-3p-iL4"/>
                                                     </constraints>
                                                 </imageView>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xwh-SL-2Rl">
-                                                    <rect key="frame" x="265" y="28" width="100" height="36"/>
+                                                    <rect key="frame" x="265" y="31" width="100" height="36"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="100" id="T4E-i3-fTK"/>
                                                         <constraint firstAttribute="height" constant="36" id="hdv-yW-FZ2"/>
@@ -460,19 +471,19 @@
                                                     </connections>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tingxins" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O03-e1-wYB">
-                                                    <rect key="frame" x="22" y="123" width="93.5" height="30"/>
+                                                    <rect key="frame" x="30" y="126" width="93.5" height="30"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@tingxins" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dzd-R3-otL">
-                                                    <rect key="frame" x="22" y="160" width="75" height="21"/>
+                                                    <rect key="frame" x="30" y="163" width="75" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" red="0.39215686274509803" green="0.46274509803921571" blue="0.51372549019607838" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a6p-5F-2Ta">
-                                                    <rect key="frame" x="40" y="241" width="295" height="34"/>
+                                                    <rect key="frame" x="40" y="244" width="295" height="34"/>
                                                     <color key="backgroundColor" red="0.90196078430000004" green="0.63529411759999999" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     <state key="normal" title="下载更多主题"/>
                                                     <connections>
@@ -480,13 +491,13 @@
                                                     </connections>
                                                 </button>
                                                 <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gOC-sl-Rke">
-                                                    <rect key="frame" x="163" y="295" width="51" height="31"/>
+                                                    <rect key="frame" x="163" y="298" width="51" height="31"/>
                                                     <connections>
                                                         <action selector="valueChange:" destination="oMM-V2-zil" eventType="valueChanged" id="b3q-HB-UjU"/>
                                                     </connections>
                                                 </switch>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to SakuraKit!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nwz-eH-Dy2">
-                                                    <rect key="frame" x="51.5" y="336" width="272.5" height="33.5"/>
+                                                    <rect key="frame" x="51.5" y="339" width="272.5" height="33.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
@@ -627,7 +638,7 @@
                 <navigationController id="4wy-JF-uRg" customClass="NavViewController" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="个人中心" image="cm2_btm_icn_account" selectedImage="cm2_btm_icn_account_prs" id="SqG-nm-SWO"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Djf-7E-gVl">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>

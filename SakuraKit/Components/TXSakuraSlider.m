@@ -37,7 +37,15 @@
 - (TXSakuraSliderBlock)maximumTrackTintColor {
     return (TXSakuraSliderBlock)[super tx_sakuraColorBlockWithName:NSStringFromSelector(_cmd)];
 }
-
+- (TXSakuraSlider2DStateBlock)thumbImage{
+    return (TXSakuraSlider2DStateBlock)[super tx_sakuraImageForStateBlockWithName:NSStringFromSelector(_cmd)];
+}
+- (TXSakuraSlider2DStateBlock)maximumTrackImage{
+    return (TXSakuraSlider2DStateBlock)[super tx_sakuraImageForStateBlockWithName:NSStringFromSelector(_cmd)];
+}
+- (TXSakuraSlider2DStateBlock)minimumTrackImage{
+    return (TXSakuraSlider2DStateBlock)[super tx_sakuraImageForStateBlockWithName:NSStringFromSelector(_cmd)];
+}
 @end
 
 TXSakuraCategoryImplementation(UISlider, TXSakuraSlider)

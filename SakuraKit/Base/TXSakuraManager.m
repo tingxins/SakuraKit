@@ -32,6 +32,7 @@ UIKIT_EXTERN NSString *const kTXSakuraArgBarStyle;
 UIKIT_EXTERN NSString *const kTXSakuraArgTitle;
 UIKIT_EXTERN NSString *const kTXSakuraArgKeyboardAppearance;
 UIKIT_EXTERN NSString *const kTXSakuraActivityIndicatorViewStyle;
+UIKIT_EXTERN NSString *const kTXSakuraSetMutableArray;
 /***********/
 
 UIKIT_EXTERN NSString *const TXSakuraSkinChangeNotification;
@@ -350,6 +351,11 @@ SEL getSelectorWithPattern(const char *prefix, const char *key, const char *suff
     return [[self getSakuraConfigsFileData] valueForKeyPath:path];
 }
 
++ (NSArray *)tx_arrayWithPath:(NSString *)path{
+    NSArray *array = [[self getSakuraConfigsFileData] valueForKeyPath:path];
+    return array;
+}
+
 // UIImage from NSBundle or Sandbox
 + (UIImage *)tx_imageWithPath:(NSString *)path {
     NSString *imageName = [self tx_stringWithPath:path];
@@ -495,28 +501,54 @@ SEL getSelectorWithPattern(const char *prefix, const char *key, const char *suff
 @implementation TXSakuraManager(TXTool)
 
 + (UIColor*)tx_colorFromString:(NSString*)hexStr {
-    hexStr = [hexStr stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
-    if([hexStr hasPrefix:@"0x"]) {
-        hexStr = [hexStr substringFromIndex:2];
+    CGFloat r, g, b, a;
+    if (hexStrToRGBA(hexStr, &r, &g, &b, &a)) {
+        return [UIColor colorWithRed:r green:g blue:b alpha:a];
     }
-    if([hexStr hasPrefix:@"#"]) {
-        hexStr = [hexStr substringFromIndex:1];
-    }
-    
-    NSUInteger hex = [self _intFromHexString:hexStr];
-    if(hexStr.length > 6) {
-        return TXSakuraRGBHex(hex);
-    }
-    return TXSakuraRGBHex(hex);
+    return nil;
 }
 
 #pragma mark - Private
 
-+ (NSUInteger)_intFromHexString:(NSString *)hexStr {
-    unsigned int hexInt = 0;
-    NSScanner *scanner = [NSScanner scannerWithString:hexStr];
-    [scanner scanHexInt:&hexInt];
-    return hexInt;
+static BOOL hexStrToRGBA(NSString *str,
+                         CGFloat *r, CGFloat *g, CGFloat *b, CGFloat *a) {
+    str = [[TXSakuraManager stringByTrim:str] uppercaseString];
+    if ([str hasPrefix:@"#"]) {
+        str = [str substringFromIndex:1];
+    } else if ([str hasPrefix:@"0X"]) {
+        str = [str substringFromIndex:2];
+    }
+    
+    NSUInteger length = [str length];
+    //         RGB            RGBA          RRGGBB        RRGGBBAA
+    if (length != 3 && length != 4 && length != 6 && length != 8) {
+        return NO;
+    }
+    
+    //RGB,RGBA,RRGGBB,RRGGBBAA
+    if (length < 5) {
+        *r = hexStrToInt([str substringWithRange:NSMakeRange(0, 1)]) / 255.0f;
+        *g = hexStrToInt([str substringWithRange:NSMakeRange(1, 1)]) / 255.0f;
+        *b = hexStrToInt([str substringWithRange:NSMakeRange(2, 1)]) / 255.0f;
+        if (length == 4)  *a = hexStrToInt([str substringWithRange:NSMakeRange(3, 1)]) / 255.0f;
+        else *a = 1;
+    } else {
+        *r = hexStrToInt([str substringWithRange:NSMakeRange(0, 2)]) / 255.0f;
+        *g = hexStrToInt([str substringWithRange:NSMakeRange(2, 2)]) / 255.0f;
+        *b = hexStrToInt([str substringWithRange:NSMakeRange(4, 2)]) / 255.0f;
+        if (length == 8) *a = hexStrToInt([str substringWithRange:NSMakeRange(6, 2)]) / 255.0f;
+        else *a = 1;
+    }
+    return YES;
+}
++(NSString *)stringByTrim:(NSString *)str {
+    NSCharacterSet *set = [NSCharacterSet whitespaceAndNewlineCharacterSet];
+    return [str stringByTrimmingCharactersInSet:set];
+}
+static inline NSUInteger hexStrToInt(NSString *str) {
+    uint32_t result = 0;
+    sscanf([str UTF8String], "%X", &result);
+    return result;
 }
 
 @end
