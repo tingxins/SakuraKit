@@ -71,7 +71,11 @@ UIKIT_EXTERN NSString *const TXSakuraSkinChangeNotification;
 /** Set rendering mode of UIImage.(UIImageRenderingModeAlwaysOriginal default.) */
 - (void)setImageRenderingMode:(UIImageRenderingMode)renderingMode;
 
-- (void)updateSakuraSkins;
+#pragma mark - ------------add by fanyunfei 2022-11-11-----------
+/// add by fanyunfei 添加改变主题回调
+@property (copy, nonatomic, nullable) dispatch_block_t changeThemeExcute;
+#pragma mark - ------------add by fanyunfei 2022-11-11-----------
+
 @end
 
 @interface TXSakura(TXBlocker)

@@ -115,8 +115,27 @@ NSTimeInterval const TXSakuraSkinChangeDuration = 0.25;
     [self updateSakuraWith1DSkins:self.skins1D];
     // 二维参数
     [self updateSakuraWith2DSkins:self.skins2D];
-    
+
+    [self chageTheme];
 }
+
+#pragma mark - ------------add by fanyunfei 2022-11-11-----------
+/// add by fanyunfei 添加改变主题回调
+- (void)chageTheme{
+    if ([NSThread mainThread]) {
+        if (self.changeThemeExcute) {
+            self.changeThemeExcute();
+        }
+    }else{
+        dispatch_async(dispatch_get_main_queue(), ^{
+            if (self.changeThemeExcute) {
+                self.changeThemeExcute();
+            }
+        });
+    }
+}
+
+#pragma mark - ------------add by fanyunfei 2022-11-11-----------
 
 #pragma mark - Test Refactor
 
