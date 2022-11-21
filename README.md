@@ -1,5 +1,5 @@
 <p align="center">
-<img src="http://image.tingxins.cn/sakura/sakura-kit-logo.png" width=888/>
+<img src="https://tingxins.com/assets/histories/sakura/sakura-kit-logo.png" width=888/>
 </p>
 
 
@@ -63,7 +63,7 @@ Run carthage to build the frameworks and drag the **SakuraKit.framework** framew
 
 ## Test Demo
 
-![x-sakura-kit-demo](http://image.tingxins.cn/sakura/x-sakura-kit-demo.gif)
+![x-sakura-kit-demo](https://tingxins.com/assets/histories/sakura/x-sakura-kit-demo.gif)
 
 ## Use Case
 
@@ -331,5 +331,5 @@ Absolutely，you can contribute to this project all the time if you want to.
 
 Welcome to follow my Official Account of WeChat.
 
-![wechat-qrcode](http://image.tingxins.cn/adv/wechat-qrcode.jpg)
+![wechat-qrcode](https://tingxins.github.io/assets/histories/adv/wechat-qrcode.jpg)
 
