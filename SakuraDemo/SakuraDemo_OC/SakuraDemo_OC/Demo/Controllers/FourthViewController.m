@@ -88,6 +88,7 @@
     [alertController addAction:actionClear];
     [alertController addAction:actionCancel];
     [self presentViewController:alertController animated:YES completion:nil];
+    NSMutableArray *array = [NSMutableArray array];
 }
 
 - (IBAction)editProfile:(UIButton *)sender {

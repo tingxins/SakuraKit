@@ -141,6 +141,10 @@ typedef NS_ENUM(NSInteger, TXSakuraDownloadTaskStatus) {
  @return Font value
  */
 + (UIFont *_Nullable)tx_fontWithPath:(NSString *_Nullable)path;
+/**
+ @return array value
+ */
++ (NSArray *_Nullable)tx_arrayWithPath:(NSString *_Nullable)path;
 
 /** Original data */
 + (NSDictionary *_Nullable)tx_origDictionaryWithPath:(NSString *_Nullable)path;
@@ -150,6 +154,7 @@ typedef NS_ENUM(NSInteger, TXSakuraDownloadTaskStatus) {
  @return Attributes
  */
 + (NSDictionary *_Nullable)tx_titleTextAttributesDictionaryWithPath:(NSString *_Nullable)path;
+
 
 /**
  For enum

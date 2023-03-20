@@ -18,7 +18,7 @@ char *const kTXSakuraSELHeader = "set";
 char *const kTXSakuraSELCon = ":";
 NSString *const kTXSakura2DStateSELTail = @"forState:";
 NSString *const kTXSakura2DAnimatedSELTail = @"animated:";
-
+NSString *const kTXSakura2DBarMetricsSELTail = @"forBarMetrics:";
 #pragma mark - Config TYPE OF ARG
 
 NSString *const kTXSakuraArgCustomInt = @"com.tingxins.sakura.arg.custom.int";
@@ -38,6 +38,7 @@ NSString *const kTXSakuraArgBarStyle = @"com.tingxins.sakura.arg.barStyle";
 NSString *const kTXSakuraArgTitle = @"com.tingxins.sakura.arg.title";
 NSString *const kTXSakuraArgKeyboardAppearance = @"com.tingxins.sakura.arg.keyboardAppearance";
 NSString *const kTXSakuraActivityIndicatorViewStyle = @"com.tingxins.sakura.arg.activityIndicatorViewStyle";
+NSString *const kTXSakuraSetMutableArray = @"com.tingxins.sakura.arg.setMutableArray";
 
 
 #pragma mark - FUNC VAR
@@ -48,6 +49,8 @@ NSTimeInterval const TXSakuraSkinChangeDuration = 0.25;
 @interface TXSakura ()
 
 @property (assign, nonatomic) UIImageRenderingMode imageRenderingMode;
+@property (assign, nonatomic) UIEdgeInsets imageEdgeInsets;
+@property (assign, nonatomic) UIImageResizingMode imageResizingMode;
 // single arg
 @property (strong, nonatomic) NSDictionary *innerSkins1D;
 // double args
@@ -95,6 +98,8 @@ NSTimeInterval const TXSakuraSkinChangeDuration = 0.25;
     if (self = [super init]) {
         _owner = owner;
         _imageRenderingMode = UIImageRenderingModeAlwaysOriginal;
+        _imageEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 0);
+        _imageResizingMode = UIImageResizingModeStretch;
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateSakuraSkins) name:TXSakuraSkinChangeNotification object:nil];
     }
     return self;
@@ -107,6 +112,12 @@ NSTimeInterval const TXSakuraSkinChangeDuration = 0.25;
 - (void)setImageRenderingMode:(UIImageRenderingMode)renderingMode {
     _imageRenderingMode = renderingMode;
     
+}
+- (void)setResizingMode:(UIImageResizingMode)resizingMode{
+    _imageResizingMode = resizingMode;
+}
+- (void)setResizableImageWithCapInsets:(UIEdgeInsets)insets{
+    _imageEdgeInsets = insets;
 }
 
 /** Update skins */
@@ -128,7 +139,7 @@ NSTimeInterval const TXSakuraSkinChangeDuration = 0.25;
         id(*msg)(id, SEL, id) = (id(*)(id, SEL, id))objc_msgSend;
         id vector = msg(TXSakuraManager.class, sel, path);
         if ([vector isKindOfClass:[UIImage class]]) {
-            vector = [(UIImage *)vector imageWithRenderingMode:_imageRenderingMode];
+            vector = [[(UIImage *)vector imageWithRenderingMode:_imageRenderingMode] resizableImageWithCapInsets:_imageEdgeInsets resizingMode:_imageResizingMode];
         }
         return vector;
     }
@@ -559,6 +570,14 @@ NSTimeInterval const TXSakuraSkinChangeDuration = 0.25;
     };
 }
 
+- (TXSakuraBlock)tx_sakuraArrayBlockWithName:(NSString *)name{
+    return ^TXSakura *(NSString *path){
+        return [self send1DMsgObjectWithName:name keyPath:path arg:kTXSakuraSetMutableArray valueBlock:^NSObject *(NSString *keyPath) {
+            return [TXSakuraManager tx_arrayWithPath:keyPath];
+        }];
+    };
+}
+
 #pragma mark - 2D Block
 
 - (TXSakura2DUIntBlock)tx_sakuraTitleColorForStateBlockWithName:(NSString *)name {
@@ -589,6 +608,13 @@ NSTimeInterval const TXSakuraSkinChangeDuration = 0.25;
     return ^TXSakura *(NSString *path, BOOL animated){
         return [self send2DMsgIntAndIntWithName:name keyPath:path integ:animated selTail:kTXSakura2DAnimatedSELTail argType:kTXSakuraArgStatusBarStyle valueBlock:^NSInteger(NSString *keyPath) {
             return [TXSakuraManager tx_statusBarStyleWithPath:path];
+        }];
+    };
+}
+- (TXSakura2DBarMetricsBlock)tx_sakuraImageForBarMetricsBlockWithName:(NSString *)name{
+    return ^TXSakura *(NSString *path, UIBarMetrics barMetrics){
+        return [self send2DMsgObjectAndIntWithName:name keyPath:path integ:barMetrics selTail:kTXSakura2DBarMetricsSELTail argType:kTXSakuraArgImage valueBlock:^NSObject *(NSString *keyPath) {
+            return [TXSakuraManager tx_imageWithPath:keyPath];
         }];
     };
 }

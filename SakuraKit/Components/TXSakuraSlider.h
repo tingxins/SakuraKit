@@ -9,7 +9,7 @@
 #import "TXSakuraView.h"
 
 TXSakuraBlockDeclare(TXSakuraSlider)
-
+TXSakura2DStateBlockDeclare(TXSakuraSlider)
 @interface TXSakuraSlider : TXSakuraView
 
 // UIView
@@ -21,7 +21,9 @@ TXSakuraBlockDeclare(TXSakuraSlider)
 - (TXSakuraSliderBlock)thumbTintColor;
 - (TXSakuraSliderBlock)maximumTrackTintColor;
 - (TXSakuraSliderBlock)minimumTrackTintColor;
-
+- (TXSakuraSlider2DStateBlock)thumbImage;
+- (TXSakuraSlider2DStateBlock)maximumTrackImage;
+- (TXSakuraSlider2DStateBlock)minimumTrackImage;
 @end
 
 TXSakuraCategoryDeclare(UISlider, TXSakuraSlider)
